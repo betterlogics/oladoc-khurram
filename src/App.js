@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import Consulting from './Components/Consulting/Consulting';
+import Header from './Components/Header/Header';
+import Landing from './Components/Landing/Landing';
+import Mobilenav from './Components/Mobilenav/Mobilenav';
+import Oladoc from './Components/Oladoc/Oladoc';
+import Platinumdoc from './Components/Platinumdoc/Platinumdoc';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Mobilenav/>
+    <Header/>
+    <Landing/>
+    <Consulting/>
+    <Oladoc/>
+    <Platinumdoc/>
     </div>
   );
 }
