@@ -1,0 +1,31 @@
+.list-unstyled li{
+        display: flex;
+        align-items: center;
+        margin: 0 0 30px;
+}
+.user-review{
+    position: relative;
+    display: flex;
+    overflow: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.user-review::-webkit-scrollbar {
+    width: 0px;
+ }
+.article-card {
+    height: 240px;
+    width: 31%;
+    flex-shrink: 0;
+    margin: 0 12px 60px;
+}
+.article-card q{
+    max-height: 174px;
+    overflow: auto;
+}
+@media screen and (max-width:992px) {
+    .article-card {
+        min-height: 264px;
+        width: 100%;
+    }
+}

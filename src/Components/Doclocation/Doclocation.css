@@ -1,0 +1,18 @@
+.doctors-location-nav {
+    background-color: #f5f5f5!important;
+}
+.doc-loc-list a{
+    text-decoration: none;
+}
+.doc-loc-list li a{
+    font-size: 12px;
+    color: #868e96;
+
+}
+.doc-loc-list li{
+    display: flex;
+    align-items: center;
+margin: 0;
+list-style: none;
+padding-left: 0;
+}

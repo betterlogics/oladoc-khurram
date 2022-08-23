@@ -1,0 +1,24 @@
+.mobileapp-img-holder {
+  max-width: 230px;
+  border-radius: 6px;
+  position: relative;
+}
+.easystepmobileapp_img_holder {
+  overflow: visible;
+}
+.mobileapp-img {
+  z-index: 1;
+  position: relative;
+}
+.inner-data {
+  position: absolute;
+  left: 0px;
+  top: 7px;
+  border-radius: 6px;
+  z-index: -2;
+  background-color: #fff;
+}
+.list-unstyled li .svg {
+  margin: 0 15px 0 0;
+  min-width: 30px;
+}
