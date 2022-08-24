@@ -27,11 +27,11 @@ export default function Oladocapp() {
               using the oladoc app.
             </p>
             <div className="row pt-2">
-                <div className="col-12 col-sm-auto">
+                <div className="col-12 col-sm-auto ">
                     <a href=""><img src="/playstore.PNG" alt="" /></a>
                 </div>
                 <div className="col-12 col-sm-auto">
-                <a href=""><img src="/App-store.PNG" alt="" /></a>
+                <a href=""><img src="/app-store.PNG" alt="" /></a>
                 </div>
             </div>
           </div>

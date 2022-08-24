@@ -29,3 +29,13 @@
         width: 100%;
     }
 }
+.article-img{
+    position: absolute;
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    right: 40%;
+    left: auto;
+    top: 197px;
+    overflow: hidden;
+}

@@ -1,0 +1,22 @@
+.bg-dark{
+   background-color: #222222 !important;
+}
+.footer-list li{
+    list-style: none;
+    text-align: start;
+}
+/* @media screen and (max-width:574px) {
+    .footer-list li{
+        text-align: center;
+    }
+} */
+.footer-list li a{
+    text-decoration: none;
+    color: #868e96;
+}
+.footer-list {
+    padding-left: 0rem;
+}
+.title{
+    text-align: start;
+}

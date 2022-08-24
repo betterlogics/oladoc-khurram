@@ -1,4 +1,9 @@
 .iphone-x{
-    width: 97%;
-    height: 98%;
+    width: 95%;
+    height: 97%;
+    top: 7px;
+    left: 6px;
+}
+.oladoc-app {
+    background: #f5f5f5;
 }

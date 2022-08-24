@@ -7,7 +7,7 @@
   overflow: visible;
 }
 .mobileapp-img {
-  z-index: 1;
+  z-index: 6;
   position: relative;
 }
 .inner-data {
@@ -15,7 +15,7 @@
   left: 0px;
   top: 7px;
   border-radius: 6px;
-  z-index: -2;
+  z-index: 5;
   background-color: #fff;
 }
 .list-unstyled li .svg {

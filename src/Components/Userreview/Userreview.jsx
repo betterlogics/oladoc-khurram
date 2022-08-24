@@ -8,6 +8,9 @@ export default function Userreview() {
       <div className="container">
         <h2 className="h4 mb-4">Over 200,000 user recommendations</h2>
         <div className="user-review">
+
+      
+
           <article className="shadow-sm p-3 pb-4 article-card">
             <ul className="list-unstyled d-flex">
               <li className="me-1 text-warning">
@@ -33,13 +36,13 @@ export default function Userreview() {
               more efficient.
             </q>
             <cite>
-            <figure className="rounded-circle d-block overflow-hidden position-relative">
+            <div className="rounded-circle d-block overflow-hidden position-relative">
               <img
                 src="/umer.png"
                 alt=""
                 className="img-fluid card-img-overlay"
               />
-            </figure>
+            </div>
             Umer Fayyaz
             </cite>
           </article>
@@ -192,8 +195,6 @@ export default function Userreview() {
             Umer Fayyaz
             </cite>
           </article>
-
-
 
         </div>
       </div>
