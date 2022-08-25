@@ -8,9 +8,6 @@ export default function Userreview() {
       <div className="container">
         <h2 className="h4 mb-4">Over 200,000 user recommendations</h2>
         <div className="user-review">
-
-      
-
           <article className="shadow-sm p-3 pb-4 article-card">
             <ul className="list-unstyled d-flex">
               <li className="me-1 text-warning">
@@ -36,14 +33,14 @@ export default function Userreview() {
               more efficient.
             </q>
             <cite>
-            <div className="rounded-circle d-block overflow-hidden position-relative">
-              <img
-                src="/umer.png"
-                alt=""
-                className="img-fluid card-img-overlay"
-              />
-            </div>
-            Umer Fayyaz
+              <figure className="rounded-circle d-block overflow-hidden position-relative">
+                <img
+                  src="/umer.png"
+                  alt=""
+                  className="img-fluid card-img-overlay"
+                />
+              </figure>
+              Umer Fayyaz
             </cite>
           </article>
 
@@ -72,17 +69,16 @@ export default function Userreview() {
               more efficient.
             </q>
             <cite>
-            <figure className="rounded-circle d-block overflow-hidden position-relative">
-              <img
-                src="/umer.png"
-                alt=""
-                className="img-fluid card-img-overlay"
-              />
-            </figure>
-            Umer Fayyaz
+              <figure className="rounded-circle d-block overflow-hidden position-relative">
+                <img
+                  src="/umer.png"
+                  alt=""
+                  className="img-fluid card-img-overlay"
+                />
+              </figure>
+              Umer Fayyaz
             </cite>
           </article>
-
 
           <article className="shadow-sm p-3 pb-4 article-card">
             <ul className="list-unstyled d-flex">
@@ -109,17 +105,16 @@ export default function Userreview() {
               more efficient.
             </q>
             <cite>
-            <figure className="rounded-circle d-block overflow-hidden position-relative">
-              <img
-                src="/umer.png"
-                alt=""
-                className="img-fluid card-img-overlay"
-              />
-            </figure>
-            Umer Fayyaz
+              <figure className="rounded-circle d-block overflow-hidden position-relative">
+                <img
+                  src="/umer.png"
+                  alt=""
+                  className="img-fluid card-img-overlay"
+                />
+              </figure>
+              Umer Fayyaz
             </cite>
           </article>
-
 
           <article className="shadow-sm p-3 pb-4 article-card">
             <ul className="list-unstyled d-flex">
@@ -146,19 +141,16 @@ export default function Userreview() {
               more efficient.
             </q>
             <cite>
-            <figure className="rounded-circle d-block overflow-hidden position-relative">
-              <img
-                src="/umer.png"
-                alt=""
-                className="img-fluid card-img-overlay"
-              />
-            </figure>
-            Umer Fayyaz
+              <figure className="rounded-circle d-block overflow-hidden position-relative">
+                <img
+                  src="/umer.png"
+                  alt=""
+                  className="img-fluid card-img-overlay"
+                />
+              </figure>
+              Umer Fayyaz
             </cite>
           </article>
-
-
-
 
           <article className="shadow-sm p-3 pb-4 article-card">
             <ul className="list-unstyled d-flex">
@@ -185,35 +177,44 @@ export default function Userreview() {
               more efficient.
             </q>
             <cite>
-            <figure className="rounded-circle d-block overflow-hidden position-relative">
-              <img
-                src="/umer.png"
-                alt=""
-                className="img-fluid card-img-overlay"
-              />
-            </figure>
-            Umer Fayyaz
+              <figure className="rounded-circle d-block overflow-hidden position-relative">
+                <img
+                  src="/umer.png"
+                  alt=""
+                  className="img-fluid card-img-overlay"
+                />
+              </figure>
+              Umer Fayyaz
             </cite>
           </article>
-
         </div>
       </div>
 
-
-
-
-
-      
       <div className="google-rating-area pt-3 pt-md-4 pb-md-3 pe-md-5">
         <div className="rating-holder d-flex justify-content-md-end align-items-center justify-content-center">
           <FcGoogle className="w-15" />
           <span className="mx-2 text-warning">4.9</span>
           <div className="rating d-inline-block position-relative">
-            <span className="text-warning"> <AiFillStar /></span>
-            <span className="text-warning"> <AiFillStar /></span>
-            <span className="text-warning"> <AiFillStar /></span>
-            <span className="text-warning"> <AiFillStar /></span>
-            <span className="text-warning"> <AiFillStar /></span>
+            <span className="text-warning">
+              {" "}
+              <AiFillStar />
+            </span>
+            <span className="text-warning">
+              {" "}
+              <AiFillStar />
+            </span>
+            <span className="text-warning">
+              {" "}
+              <AiFillStar />
+            </span>
+            <span className="text-warning">
+              {" "}
+              <AiFillStar />
+            </span>
+            <span className="text-warning">
+              {" "}
+              <AiFillStar />
+            </span>
           </div>
         </div>
       </div>

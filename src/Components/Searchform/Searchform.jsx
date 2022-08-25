@@ -1,21 +1,14 @@
-import React from "react";
-import "./Landing.css";
+import React from 'react'
 import { BiCurrentLocation } from "react-icons/bi";
 import { GrLocation } from "react-icons/gr";
 import { RiArrowDropDownLine } from "react-icons/ri";
 import { BsSearch } from "react-icons/bs";
-export default function Landing() {
+export default function Searchform() {
   return (
-    <div className="home-banner">
-      <div className="container text-white">
-        <div className="row py-md-5">
-          <div className="col-12 px-3">
-            <h1 className="mb-3 mb-md-5 mt-5">
-              Find and book the{" "}
-              <span className="text-warning"> best doctors </span>near you
-            </h1>
-          </div>
-          <div className="col-12 d-none d-lg-block mb-4 mb-md-5 text-left">
+    <div>
+      <div className="container mt-md-5 mt-0">
+        <div className="row pt-md-5">
+        <div className="col-12 d-none d-lg-block mb-4 mb-md-5 text-left">
             <div className="input-group">
               <select
                 class="form-select"
@@ -56,7 +49,7 @@ export default function Landing() {
             <div className="row m-0 mobile-search-holder">
               <div className="col-12">
                 <div className="rounded mb-2 overflow-hidden">
-                  <a
+                  {/* <a
                     href=""
                     className="search-opener text-decoration-none text-white fs-4 "
                   >
@@ -64,7 +57,7 @@ export default function Landing() {
                     <span className="ps-3">
                       Lahore <RiArrowDropDownLine />
                     </span>
-                  </a>
+                  </a> */}
                   <div className="search-btn-holder my-2">
                     <div class="input-group flex-nowrap">
                       <span className="input-group-text" id="addon-wrapping">
@@ -84,14 +77,7 @@ export default function Landing() {
             </div>
           </div>
         </div>
-        <div className="row justify-content">
-          <div className="col-12">
-            <div className="text-holder h3">
-              <span>25,000+ doctors</span>
-            </div>
-          </div>
         </div>
       </div>
-    </div>
-  );
+  )
 }

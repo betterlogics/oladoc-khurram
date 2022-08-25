@@ -31,4 +31,10 @@
   padding: 13px 30px;
 }
 
-
+.input-group-text{
+  color: #ff9e15;
+  background: white;
+}
+.loc-icon{
+  color: #ff9e15 !important;
+}

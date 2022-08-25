@@ -1,0 +1,30 @@
+.city-img-section {
+    position: relative;
+    min-height: 350px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.city-img-section .after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(87.25deg, #21205F 0.2%, rgba(255, 158, 21, 0.05) 99.69%);
+    border-radius: 8px;
+}
+.city-text-section {
+    position: absolute;
+    bottom: 0;
+    color: #ffffff;
+    padding: 16px;
+
+}
+@media screen and (min-width:992px) {
+    .city-text-section{
+        width: 75%;
+        padding-left: 41px;
+        padding-bottom: 30px;
+    }
+    
+}
