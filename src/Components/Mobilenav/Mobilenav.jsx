@@ -15,7 +15,7 @@ export default function Mobilenav() {
           key={expand}
           bg="light"
           expand={expand}
-          className="mb-3 mobilenav"
+          className="mb-3 mobilenav shadow"
         >
           <Container fluid>
             <Navbar.Brand href="#">

@@ -3,16 +3,17 @@ import "./Header.css";
 import { BsArrowRightShort } from "react-icons/bs";
 import { BsTelephoneFill } from "react-icons/bs";
 import CMCLOG from "../Assets/CMCLOG.jpg";
+import { Routes, Route, Link } from "react-router-dom";
 export default function Header() {
   return (
     <div>
       {/*  */}
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top desktop">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top desktop shadow">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-           
+            <Link to="/">
               <img src="/logo.png" alt="" />
-  
+            </Link>
           </a>
           <button
             className="navbar-toggler"
@@ -36,6 +37,7 @@ export default function Header() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
+                  
                   Doctors
                 </a>
                 <div
@@ -48,7 +50,10 @@ export default function Header() {
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Doctor</h4>
                         <a href="">
-                          View all specialties <BsArrowRightShort />
+                        <Link to="/Doctor_main">
+                        View all specialties
+                        </Link>
+                           <BsArrowRightShort />
                         </a>
                       </div>
                     </div>
@@ -299,7 +304,11 @@ export default function Header() {
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Hospital</h4>
                         <a href="">
-                          View all Hospital <BsArrowRightShort />
+                        <Link to="/Hospital_main">
+
+                          View all Hospital
+                        </Link>
+                        <BsArrowRightShort />
                         </a>
                       </div>
                     </div>
@@ -553,7 +562,9 @@ export default function Header() {
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Lab</h4>
                         <a href="">
+                        <Link to="/Labs_main">
                           View all Labs <BsArrowRightShort />
+                          </Link>
                         </a>
                       </div>
                     </div>
