@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <div>
       {/*  */}
-      <nav className="navbar navbar-expand-lg navbar-light fixed-top desktop shadow">
+      <nav className="navbar navbar-expand-lg navbar-light fixed-top desktop shadow d-none d-lg-block">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <Link to="/">

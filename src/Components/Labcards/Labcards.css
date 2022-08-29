@@ -1,0 +1,79 @@
+.doc-discribtion-columns span {
+  display: block;
+}
+
+.item {
+  border-right: 1px solid #e5e5f0;
+}
+
+@media only screen and (min-width: 768px) {
+  .doc-discribtion-columns .item {
+    padding: 2px 25px;
+  }
+}
+.review-text {
+  font-size: 12px;
+}
+@media only screen and (min-width: 992px) {
+  .listing-review-section {
+    padding: 11px 25px;
+    margin: 0px 16px 16px 16px;
+  }
+}
+.listing-review-section {
+    background: #F5F5F7;
+    border-radius: 8px;
+    padding: 9px 15px;
+    /* margin: 0px 19.5px 8px 7.5px; */
+    line-height: 18px;
+}
+.text-truncate-dot {
+  text-overflow: ellipsis;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  max-height: 2.7rem;
+}
+.text-available {
+    color: #2a872e!important;
+}
+
+
+
+.dd-hospital-carddetails>div {
+    flex: 0 0 32.5%;
+    max-width: 32.5%;
+    padding-right: 7.5px;
+    padding-left: 7.5px;
+  
+}
+.dd-hospital-carddetails>div a{
+    background: white;
+    text-decoration: none;
+    color: black;
+    border: 1px solid lightgrey;
+    border-radius: 8px;
+}
+@media only screen and (max-width: 374px){
+.dd-hospital-carddetails>div {
+    flex: 0 0 85%;
+    max-width: 85%;
+
+}
+}
+@media only screen and (max-width: 767px){
+.dd-hospital-carddetails>div {
+    flex: 0 0 70%;
+    max-width: 70%;
+}
+.listing-view-profile-btn{
+/* display: flex; */
+flex-wrap: nowrap;
+font-size: 11px;
+}
+}
+.dd-hospital-carddetails::-webkit-scrollbar {
+    width: 0px;
+  }

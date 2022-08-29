@@ -9,7 +9,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import "./Mobilenav.css";
 export default function Mobilenav() {
   return (
-    <div>
+    <div className="d-block d-lg-none">
       {[false].map((expand) => (
         <Navbar
           key={expand}
@@ -231,15 +231,11 @@ export default function Mobilenav() {
                     title="Diagnostics and Lab"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#">
-                      Lahore Labs
-                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#">Lahore Labs</NavDropdown.Item>
                     <NavDropdown.Item href="#">
                       Isalamabad Labs
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Karachi  Labs
-                    </NavDropdown.Item>
+                    <NavDropdown.Item href="#">Karachi Labs</NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link href="#action1">Health Blogs</Nav.Link>
                 </Nav>
@@ -257,7 +253,7 @@ export default function Mobilenav() {
                         </a>
                       </div>
                       <div className="col-sm-5">
-                      <a
+                        <a
                           href=""
                           className="nav-link  bg-white mobile-link-tab"
                         >
@@ -270,13 +266,27 @@ export default function Mobilenav() {
                   </div>
                 </div>
                 <div className="container d-block">
-                  <p className="text-center pt-3 pb-1">Download the oladoc app for better consultation experience!</p>
+                  <p className="text-center pt-3 pb-1">
+                    Download the oladoc app for better consultation experience!
+                  </p>
                   <div className="row">
                     <div className="col-6">
-                      <a href="" className="nav-link text-right "><img src="/playstore.PNG" className="img-fluid" alt="" /></a>
+                      <a href="" className="nav-link text-right ">
+                        <img
+                          src="/playstore.PNG"
+                          className="img-fluid"
+                          alt=""
+                        />
+                      </a>
                     </div>
-                    <div className="col-6"> 
-                    <a href="" className="nav-link"><img src="/app-store.PNG" className="img-fluid"  alt="" /></a>
+                    <div className="col-6">
+                      <a href="" className="nav-link">
+                        <img
+                          src="/app-store.PNG"
+                          className="img-fluid"
+                          alt=""
+                        />
+                      </a>
                     </div>
                   </div>
                 </div>

@@ -1,4 +1,5 @@
 import React from "react";
+import Aboutsection from "../Aboutsection/Aboutsection";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Labcards from "../Labcards/Labcards";
@@ -10,10 +11,13 @@ export default function Labs_main() {
   return (
     <div className="hospital-section">
       <Header />
-      <Mobilenav />
+      {/* <Mobilenav /> */}
       <Labsheader />
       <Scrollnav />
       <Labcards />
+      <Labcards />
+      <Labcards />
+      <Aboutsection/>
       <Footer />
     </div>
   );

@@ -38,9 +38,7 @@ function App() {
       </Routes>
       <Footer />
 
-      {/* <Doctor_main/> */}
-      {/* <Hospital_main/> */}
-      {/* <Labs_main /> */}
+     
     </div>
   );
 }
