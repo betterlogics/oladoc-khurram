@@ -1,0 +1,35 @@
+.accordion-button:not(.collapsed)::after {
+  background-image: url(/public/minus.png );
+  
+}
+.accordion-button::after {
+  background-image: url(/public/plus.png);
+}
+.accordion-button:not(.collapsed) {
+  /* color: #000066; */
+  background-color: #f7f8fb;
+  box-shadow: none;
+}
+.accordion-body {
+  background-color: #f7f8fb;
+  padding-top: 0;
+}
+.accordion-button {
+  /* color: #000066; */
+  background-color: #f7f8fb;
+  padding-bottom: 0;
+}
+.accordion-button h5 {
+  color: #000066;
+}
+.accordion-body h5 {
+  color: #000066;
+}
+.acordion-buton:focus {
+  border-color: white;
+}
+
+.accordion-item {
+  border: none;
+  margin: 20px 0;
+}

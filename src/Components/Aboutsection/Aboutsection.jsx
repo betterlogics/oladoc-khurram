@@ -1,10 +1,11 @@
 import React from "react";
-
+// import Accordion from "../Accordion/Accordion";
+import "./Aboutsection.css"
 export default function Aboutsection() {
   return (
     <div>
-    <div className="bg-white about-section overflow-hidden">
-      <div className="container listing-brief-intro-section">
+    <div className="bg-white about-section overflow-hidden py-4">
+      <div className="container listing-brief-intro-section text-start">
         <div className="row">
           <div className="col">
             <h2 className="hf"></h2>
@@ -33,7 +34,7 @@ export default function Aboutsection() {
         </div>
       </div>
     </div>
-    
+    {/* <Accordion/> */}
     </div>
   );
 }

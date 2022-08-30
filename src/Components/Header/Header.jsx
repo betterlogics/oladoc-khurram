@@ -37,7 +37,6 @@ export default function Header() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  
                   Doctors
                 </a>
                 <div
@@ -50,10 +49,8 @@ export default function Header() {
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Doctor</h4>
                         <a href="">
-                        <Link to="/Doctor_main">
-                        View all specialties
-                        </Link>
-                           <BsArrowRightShort />
+                          <Link to="/Doctor_main">View all specialties</Link>
+                          <BsArrowRightShort />
                         </a>
                       </div>
                     </div>
@@ -304,11 +301,8 @@ export default function Header() {
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Hospital</h4>
                         <a href="">
-                        <Link to="/Hospital_main">
-
-                          View all Hospital
-                        </Link>
-                        <BsArrowRightShort />
+                          <Link to="/Hospital_main">View all Hospital</Link>
+                          <BsArrowRightShort />
                         </a>
                       </div>
                     </div>
@@ -562,8 +556,8 @@ export default function Header() {
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Lab</h4>
                         <a href="">
-                        <Link to="/Labs_main">
-                          View all Labs <BsArrowRightShort />
+                          <Link to="/Labs_main">
+                            View all Labs <BsArrowRightShort />
                           </Link>
                         </a>
                       </div>
@@ -968,10 +962,12 @@ export default function Header() {
                   </div>
                 </div>
               </li> */}
-              <li class="nav-item show">
-                <a class="nav-link" href="#">
-                  Health Blogs
+              <li class="nav-item show  ">
+              <Link to="/Blogs_main">
+                <a class="nav-link " href="#">
+                 Health Blogs
                 </a>
+                </Link>
               </li>
             </ul>
 

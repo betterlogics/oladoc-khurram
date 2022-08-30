@@ -14,10 +14,10 @@ export default function Doctor() {
       <Mobilenav />
       <Header />
       <Searchform />
-      <Citylisting/>
-      <Odcitylisting/>
-      <Aboutdoc/>
-      <Downloadapp/>
+      <Citylisting />
+      <Odcitylisting />
+      <Aboutdoc />
+      <Downloadapp />
       <Footer />
     </div>
   );
