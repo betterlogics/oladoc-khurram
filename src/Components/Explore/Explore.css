@@ -1,0 +1,29 @@
+.jumbotron.fortage {
+  background-image: url(/public/blog_home_bottom_sm.png);
+  background-size: cover;
+}
+@media (min-width: 768px) {
+  .jumbotron .col-md-4 {
+    background: rgba(0, 0, 0, 0.75);
+    color: #fff;
+    height: 400px;
+    margin-left: 0;
+    padding-left: 0;
+    padding-top: 15%;
+  }
+}
+
+.jumbotron a {
+    text-decoration: none;
+    padding: 0 10px;
+    background: rgba(34,34,34,.78);
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 400;
+    text-transform: lowercase;
+    font-size: .9rem!important;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    margin-right: 5px;
+    display: inline-block;
+}

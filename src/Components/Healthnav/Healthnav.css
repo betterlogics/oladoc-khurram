@@ -1,4 +1,14 @@
-.follow {
-  border-color: #000066;
+.customarea a {
+
+  
+  color: #000066;
+}
+
+.btn.follow{
+  border: 1px solid #000066;
+  color: #000066;
+  border-radius: 999em;
+}
+.menu-item-object{
   color: #000066;
 }

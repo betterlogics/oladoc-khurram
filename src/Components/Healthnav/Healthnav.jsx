@@ -8,16 +8,12 @@ import { FaSearch } from "react-icons/fa";
 import { Routes, Route, Link } from "react-router-dom";
 export default function Healthnav() {
   return (
-    <div className="navbar-light bg-white fixed-top mediumnavigation py-3">
+    <div className="navbar-light bg-white fixed-top mediumnavigation py-3 d-none d-md-block">
       <div className="container">
         {/* begin logo  */}
         <div className="row brandrow">
           <div className="col-lg-4 col-md-4 col-12 text-start customarea ">
-            <a
-              href=""
-              className="btn rounded-pill border follow me-2"
-              target="_blank"
-            >
+            <a href="" className="btn follow me-2 py-0" target="_blank">
               <AiOutlineTwitter />
               Follow
             </a>
@@ -55,9 +51,18 @@ export default function Healthnav() {
             </from>
           </div>
         </div>
-        {/* end logo  */}
-        <div className="navarea">
-          <nav className="navbar navbar-toggleable-sm">
+        <div className="row ">
+          <div className="col pt-3">
+            <ul className="list-unstyled ">
+              <li className="justify-content-center menu-item-object fw-bold">
+                FIND & BOOK DOCTORS
+              </li>
+            </ul>
+          </div>
+        </div>
+        {/* end logo 
+        <div className="row navarea"> */}
+        {/* <nav className="navbar navbar-toggleable-sm">
             <button
               className="navbar-toggler navbar-togler-right"
               type="button"
@@ -67,9 +72,11 @@ export default function Healthnav() {
               aria-expanded="true"
               aria-label="Toggle navigation"
             ></button>
-            <div
+          
+          </nav> */}
+        {/* <div
               id="bs4navbar"
-              className="navbar-collapse collapse sow"
+              className="col-12 navbar-collapse collapse sow"
               aria-expanded="true"
             >
               <ul
@@ -86,8 +93,7 @@ export default function Healthnav() {
                 </li>
               </ul>
             </div>
-          </nav>
-        </div>
+        </div> */}
       </div>
     </div>
   );
