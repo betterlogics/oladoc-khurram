@@ -26,19 +26,15 @@ export default function Userreview() {
                 <AiFillStar />
               </li>
             </ul>
-            <q className="mb-3 d-block pe-2">
+            <q className=" d-block pe-2">
               Great platform, very efficient and works really well on both phone
               and web. I think this is the most easiest way of booking
               appointments in Pakistan as it has made the whole process much
               more efficient.
             </q>
             <cite>
-              <figure className="rounded-circle d-block overflow-hidden position-relative">
-                <img
-                  src="/umer.png"
-                  alt=""
-                  className="img-fluid card-img-overlay"
-                />
+              <figure className="m-0 rounded-circle d-block overflow-hidden ">
+                <img src="/umer.png" alt="" className="img-fluid " />
               </figure>
               Umer Fayyaz
             </cite>
@@ -62,19 +58,15 @@ export default function Userreview() {
                 <AiFillStar />
               </li>
             </ul>
-            <q className="mb-3 d-block pe-2">
+            <q className=" d-block pe-2">
               Great platform, very efficient and works really well on both phone
               and web. I think this is the most easiest way of booking
               appointments in Pakistan as it has made the whole process much
               more efficient.
             </q>
             <cite>
-              <figure className="rounded-circle d-block overflow-hidden position-relative">
-                <img
-                  src="/umer.png"
-                  alt=""
-                  className="img-fluid card-img-overlay"
-                />
+              <figure className="m-0 rounded-circle d-block overflow-hidden ">
+                <img src="/umer.png" alt="" className="img-fluid " />
               </figure>
               Umer Fayyaz
             </cite>
@@ -98,19 +90,47 @@ export default function Userreview() {
                 <AiFillStar />
               </li>
             </ul>
-            <q className="mb-3 d-block pe-2">
+            <q className=" d-block pe-2">
               Great platform, very efficient and works really well on both phone
               and web. I think this is the most easiest way of booking
               appointments in Pakistan as it has made the whole process much
               more efficient.
             </q>
             <cite>
-              <figure className="rounded-circle d-block overflow-hidden position-relative">
-                <img
-                  src="/umer.png"
-                  alt=""
-                  className="img-fluid card-img-overlay"
-                />
+              <figure className="m-0 rounded-circle d-block overflow-hidden ">
+                <img src="/umer.png" alt="" className="img-fluid " />
+              </figure>
+              Umer Fayyaz
+            </cite>
+          </article>
+
+          <article className="shadow-sm p-3 pb-4 article-card ">
+            <ul className="list-unstyled d-flex">
+              <li className="me-1 text-warning">
+                <AiFillStar />
+              </li>
+              <li className="me-1 text-warning">
+                <AiFillStar />
+              </li>
+              <li className="me-1 text-warning">
+                <AiFillStar />
+              </li>
+              <li className="me-1 text-warning">
+                <AiFillStar />
+              </li>
+              <li className="me-1 text-warning">
+                <AiFillStar />
+              </li>
+            </ul>
+            <q className=" d-block pe-2">
+              Great platform, very efficient and works really well on both phone
+              and web. I think this is the most easiest way of booking
+              appointments in Pakistan as it has made the whole process much
+              more efficient.
+            </q>
+            <cite>
+              <figure className="m-0 rounded-circle d-block overflow-hidden ">
+                <img src="/umer.png" alt="" className="img-fluid " />
               </figure>
               Umer Fayyaz
             </cite>
@@ -134,55 +154,15 @@ export default function Userreview() {
                 <AiFillStar />
               </li>
             </ul>
-            <q className="mb-3 d-block pe-2">
+            <q className=" d-block pe-2">
               Great platform, very efficient and works really well on both phone
               and web. I think this is the most easiest way of booking
               appointments in Pakistan as it has made the whole process much
               more efficient.
             </q>
             <cite>
-              <figure className="rounded-circle d-block overflow-hidden position-relative">
-                <img
-                  src="/umer.png"
-                  alt=""
-                  className="img-fluid card-img-overlay"
-                />
-              </figure>
-              Umer Fayyaz
-            </cite>
-          </article>
-
-          <article className="shadow-sm p-3 pb-4 article-card">
-            <ul className="list-unstyled d-flex">
-              <li className="me-1 text-warning">
-                <AiFillStar />
-              </li>
-              <li className="me-1 text-warning">
-                <AiFillStar />
-              </li>
-              <li className="me-1 text-warning">
-                <AiFillStar />
-              </li>
-              <li className="me-1 text-warning">
-                <AiFillStar />
-              </li>
-              <li className="me-1 text-warning">
-                <AiFillStar />
-              </li>
-            </ul>
-            <q className="mb-3 d-block pe-2">
-              Great platform, very efficient and works really well on both phone
-              and web. I think this is the most easiest way of booking
-              appointments in Pakistan as it has made the whole process much
-              more efficient.
-            </q>
-            <cite>
-              <figure className="rounded-circle d-block overflow-hidden position-relative">
-                <img
-                  src="/umer.png"
-                  alt=""
-                  className="img-fluid card-img-overlay"
-                />
+              <figure className="m-0 rounded-circle d-block overflow-hidden ">
+                <img src="/umer.png" alt="" className="img-fluid " />
               </figure>
               Umer Fayyaz
             </cite>

@@ -26,13 +26,15 @@ export default function Blogsnav() {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a
-                  className="nav-link show menu-item-object fw-bold py-4"
-                  aria-current="page"
-                  href="#"
-                >
-                  FIND & BOOK DOCTORS
-                </a>
+                <Link to="/">
+                  <a
+                    className="btn nav-link show menu-item-object fw-bold py-4"
+                    aria-current="page"
+                    href="#"
+                  >
+                    FIND & BOOK DOCTORS
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>

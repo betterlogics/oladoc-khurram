@@ -1,4 +1,5 @@
 import React from 'react'
+import Blogsfooter from '../Blogsfooter/Blogsfooter'
 import Blogsnav from '../Blogsnav/Blogsnav'
 import Explore from '../Explore/Explore'
 import Healtharticles from '../Healtharticles/Healtharticles'
@@ -13,6 +14,7 @@ export default function Blogs_main() {
       <Healthslide/>
       <Healtharticles/>
       <Explore/>
+      <Blogsfooter/>
     </div>
   )
 }

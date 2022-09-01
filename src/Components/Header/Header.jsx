@@ -48,10 +48,10 @@ export default function Header() {
                     <div className="row ">
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Doctor</h4>
-                        <a href="">
-                          <Link to="/Doctor_main">View all specialties</Link>
-                          <BsArrowRightShort />
-                        </a>
+
+                        <Link to="/Doctor_main" className="nav-link">
+                          View all specialties <BsArrowRightShort />
+                        </Link>
                       </div>
                     </div>
                     <div className="row">
@@ -59,14 +59,21 @@ export default function Header() {
                         <h6>Find Doctor by Speciality</h6>
                         <ul>
                           <li>
-                            <a className="dropdown-item" href="#">
-                              Dermatologist <BsArrowRightShort />
-                            </a>
+                            <Link
+                              to="/Dermatologist_main"
+                              className="nav-link show dropdown-item"
+                            >
+                              Dermatologist
+                              <BsArrowRightShort />
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="nav-link show dropdown-item"
+                            >
                               Gynecologist <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">
@@ -300,10 +307,10 @@ export default function Header() {
                     <div className="row ">
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Hospital</h4>
-                        <a href="">
-                          <Link to="/Hospital_main">View all Hospital</Link>
-                          <BsArrowRightShort />
-                        </a>
+                        
+                          <Link to="/Hospital_main" className="nav-link">View all Hospital   <BsArrowRightShort /></Link>
+                       
+                       
                       </div>
                     </div>
                     <div className="row">
@@ -555,11 +562,10 @@ export default function Header() {
                     <div className="row ">
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Lab</h4>
-                        <a href="">
-                          <Link to="/Labs_main">
+                              <Link to="/Labs_main" className="nav-link">
                             View all Labs <BsArrowRightShort />
                           </Link>
-                        </a>
+                     
                       </div>
                     </div>
                     <div className="row">
@@ -963,10 +969,8 @@ export default function Header() {
                 </div>
               </li> */}
               <li class="nav-item show  ">
-              <Link to="/Blogs_main">
-                <a class="nav-link " href="#">
-                 Health Blogs
-                </a>
+                <Link to="/Blogs_main" className="nav-link">
+                  Health Blogs
                 </Link>
               </li>
             </ul>

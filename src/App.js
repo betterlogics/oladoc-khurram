@@ -18,7 +18,7 @@ import Oladocnews from "./Components/Oladocnews/Oladocnews";
 import Platinumdoc from "./Components/Platinumdoc/Platinumdoc";
 import Userreview from "./Components/Userreview/Userreview";
 import Blogs_main from "./Components/Blogs_main/Blogs_main";
-
+import Dermatologist_main from "./Components/Dermatologist_main/Dermatologist_main";
 
 import {
   BrowserRouter as Router,
@@ -30,17 +30,19 @@ import {
 function App() {
   return (
     <div className="App">
- 
+      
       <Routes>
         <Route exact path="/" element={<Index_main />} />
         <Route exact path="/Doctor_main" element={<Doctor_main />} />
         <Route exact path="/Hospital_main" element={<Hospital_main />} />
         <Route exact path="/Labs_main" element={<Labs_main />} />
-        <Route exact path="/Blogs_main" element={<Blogs_main/>}/>
+        <Route exact path="/Blogs_main" element={<Blogs_main />} />
+        <Route
+          exact
+          path="/Dermatologist_main"
+          element={<Dermatologist_main />}
+        />
       </Routes>
-   
-
-
     </div>
   );
 }

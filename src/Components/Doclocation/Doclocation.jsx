@@ -9,7 +9,9 @@ export default function Doclocation() {
             <div className="col-6 col-lg-3">
                 <span className="d-block mb-2 text-primary">Doctors in Lahore</span>
                 <ul className=" doc-loc-list">
-                    <li><RiArrowDropRightLine className='fs-3'/><a href="" target="_blank">Best Dermatologist in Lahore</a> </li>
+                    <li><RiArrowDropRightLine className='fs-3'/> 
+                    <a href="" target="_blank">
+                            Best Dermatologist in Lahore</a> </li>
                     <li><RiArrowDropRightLine className='fs-3'/><a href="" target="_blank">Best Gynecologist in Lahore</a> </li>
                     <li><RiArrowDropRightLine className='fs-3'/><a href="" target="_blank">Best Urologist in Lahore</a> </li>
                     <li><RiArrowDropRightLine className='fs-3'/><a href="" target="_blank">Best Sexologist in Lahore</a> </li>

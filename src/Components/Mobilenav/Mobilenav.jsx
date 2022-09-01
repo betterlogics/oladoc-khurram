@@ -6,6 +6,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { Routes, Route, Link } from "react-router-dom";
 import "./Mobilenav.css";
 export default function Mobilenav() {
   return (
@@ -19,7 +20,10 @@ export default function Mobilenav() {
         >
           <Container fluid>
             <Navbar.Brand href="#">
+              <Link to="/">
               <img src="/logo.png" alt="" />
+
+              </Link>
             </Navbar.Brand>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
 
@@ -30,7 +34,10 @@ export default function Mobilenav() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  <img src="/logo.png" alt="" />
+                <Link to="/">
+              <img src="/logo.png" alt="" />
+
+              </Link>
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -68,7 +75,9 @@ export default function Mobilenav() {
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                     <h6>Find Doctor By Speciality</h6>
-                    <NavDropdown.Item href="#">Dermatologist</NavDropdown.Item>
+                    <NavDropdown.Item >
+                      <Link to="/Dermatologist_main" className="nav-link">Dermatologist</Link>
+                    </NavDropdown.Item>
                     <NavDropdown.Item href="#">Gynecologist</NavDropdown.Item>
                     <NavDropdown.Item href="#">Psychiatrist</NavDropdown.Item>
                     <NavDropdown.Item href="#">Urologist</NavDropdown.Item>
