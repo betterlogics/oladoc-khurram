@@ -1,0 +1,23 @@
+.avatar {
+    height: 90px;
+    width: 90px;
+}
+@media only screen and (min-width: 992px){
+.avatar {
+    height: 140px;
+    width: 140px;
+}
+}
+
+.get-direction-link {
+    display: flex;
+    border-radius: 4px;
+    padding: 13px 16px;
+    margin-left: 16px;
+}
+.od-hospital-card {
+    box-shadow: 0px 4px 12px rgb(0 0 0 / 5%);
+    border-radius: 8px;
+    margin-right: 0px;
+    margin-left: 0px;
+}

@@ -12,7 +12,7 @@ export default function Header() {
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <Link to="/">
-              <img src="/logo.png" alt="" />
+              <img src="logo.png" alt="" />
             </Link>
           </a>
           <button
@@ -61,7 +61,7 @@ export default function Header() {
                           <li>
                             <Link
                               to="/Dermatologist_main"
-                              className="nav-link show dropdown-item"
+                              className="dropdown-item"
                             >
                               Dermatologist
                               <BsArrowRightShort />
@@ -70,7 +70,7 @@ export default function Header() {
                           <li>
                           <Link
                               to="/Dermatologist_main"
-                              className="nav-link show dropdown-item"
+                              className="dropdown-item"
                             >
                               Gynecologist <BsArrowRightShort />
                             </Link>
@@ -121,9 +121,12 @@ export default function Header() {
                         <h6>Find Doctor by Treatment</h6>
                         <ul>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          
+                              <Link to="/Labs_main" className="dropdown-item">
+
                               MRI <BsArrowRightShort />
-                            </a>
+                              </Link>
+                        
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">
@@ -318,10 +321,13 @@ export default function Header() {
                         <h6 className="text-center">Lahore</h6>
                         <ul>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            
+                              <Link to="/Doctorshospital_main" className="dropdown-item">
+
                               Doctors Hospital
                               <BsArrowRightShort />
-                            </a>
+                              </Link>
+                          
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">

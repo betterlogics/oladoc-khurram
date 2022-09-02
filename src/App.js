@@ -19,6 +19,7 @@ import Platinumdoc from "./Components/Platinumdoc/Platinumdoc";
 import Userreview from "./Components/Userreview/Userreview";
 import Blogs_main from "./Components/Blogs_main/Blogs_main";
 import Dermatologist_main from "./Components/Dermatologist_main/Dermatologist_main";
+import Doctorshospital_main from "./Components/Doctorshospital_main/Doctorshospital_main";
 
 import {
   BrowserRouter as Router,
@@ -42,6 +43,7 @@ function App() {
           path="/Dermatologist_main"
           element={<Dermatologist_main />}
         />
+        <Route exact path="/Doctorshospital_main" element={<Doctorshospital_main/>}/>
       </Routes>
     </div>
   );

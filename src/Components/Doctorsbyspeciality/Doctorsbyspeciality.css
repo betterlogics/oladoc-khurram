@@ -1,0 +1,24 @@
+.filter-button {
+  height: 74px;
+  width: 74px;
+  /* background: #333385; */
+  /* border-radius: 100%; */
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  margin: 0 auto 15px;
+}
+/* @media screen and (max-width="450px") {
+    .filter-button span{
+        font-size: 13px;
+    }
+} */
+
+.mobile-view-more-specialization {
+  padding: 12px;
+  background: #e5e5f0;
+  border-radius: 8px;
+  color: #000066;
+  font-weight: 600;
+  cursor: pointer;
+}
