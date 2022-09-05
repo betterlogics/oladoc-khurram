@@ -1,7 +1,6 @@
 import React from "react";
-import { AiOutlineArrowRight } from "react-icons/ai";
 
-export default function Experiencedoc({
+export default function Testcard({
   title,
   docspecialization,
   docdegree,
@@ -12,19 +11,19 @@ export default function Experiencedoc({
   experience,
   patient,
   satisfied,
-  price
+  price,
 }) {
   return (
     <div>
       <div className="container">
         <div className="row">
-          <div className="col-12 hospital-card-section">
-          <div className="card mb-3">
+          <div className="col-12">
+            <div className="card mb-3">
               <div className="row g-0 text-start">
                 <div className="col-md-2  ">
                   <div className="avatar flex  m-2 py-2">
                     <span className="css-avatar-img rounded-circle d-block position-relative overflow-hidden">
-                    <img src={imgsrc} alt="" className="img-fluid" />
+                      <img src="dr-sana.jpg" class="img-fluid  " alt="..." />
                     </span>
                   </div>
                 </div>
@@ -64,7 +63,7 @@ export default function Experiencedoc({
                         {" "}
                         View Profile{" "}
                         <span className="ms-4">
-                          <AiOutlineArrowRight />
+                          {/* <AiOutlineArrowRight /> */}
                         </span>
                       </a>
                     </div>
@@ -84,11 +83,9 @@ export default function Experiencedoc({
               </div>
               
             </div>
-            {/*  */}
           </div>
         </div>
       </div>
     </div>
   );
 }
-
