@@ -1,5 +1,8 @@
 import React from "react";
-import  Accordion  from "../Accordion/Accordion";
+import Aboutdochospital from "../Aboutdochospital/Aboutdochospital";
+import Accordion from "../Accordion/Accordion";
+
+import Contactloc from "../Contactloc/Contactloc";
 import Doctorsbyspeciality from "../Doctorsbyspeciality/Doctorsbyspeciality";
 import Experiencedoc from "../Experiencedoc/Experiencedoc";
 import Footer from "../Footer/Footer";
@@ -9,7 +12,9 @@ import Hospitalcard from "../Hospitalcard/Hospitalcard";
 import Hospitalnav from "../Hospitalnav/Hospitalnav";
 import Mobilenav from "../Mobilenav/Mobilenav";
 import Scsection from "../Scsection/Scsection";
+import Slider from "../Slider/Slider";
 import Testcard from "../Testcard/Testcard";
+import Faqs from "./Faqs/Faqs";
 
 export default function Doctorshospital_main() {
   return (
@@ -101,7 +106,6 @@ Dermatologist, Cosmetologist"
       />
       <Scsection
         cardtitle="Facilities at Doctors Hospital"
-        
         li1="Cancer Center"
         li2="Cardiology"
         li3="
@@ -123,13 +127,52 @@ Hematology & Oncology"
         li11="
     
 ENT"
-li12='View 19 More '
+        li12="View 19 More "
       />
-      <Scsection
-        cardtitle="Contact & Location"
+      <Contactloc />
+      <Aboutdochospital />
+      <Slider />
+      <Accordion />
+      {/* <div className="bg-white overflow-hidden">
+      <div className="container listing-brief-intro-section">
+        <div className="row">
+          <div className="col mt-2 text-start">
+            <h4 className="fw-normal faq-heading ms-2">
+              Frequently Asked Questions
+            </h4>
+          </div>
+        </div>
+      </div>
+      </div> */}
+      <Helpline />
+      <Faqs
+        accordiontitle="Top Specialists in Doctors Hospital Lahore"
+        // title='Top 10 doctors of September 2022 in Doctors Hospital are:'
+        li1="Obstetricians"
+        li2="
+      Gynecologists"
+        li3="Orthopedic Surgeons
+      "
+        li4="
+      General Surgeons
+      "
+        li5="Laparoscopic Surgeons"
+        li6="
+        Spinal Surgeons"
+        li7="Internal Medicine Specialists"
+        li8="ENT Specialists"
+        li9="Urologists"
+        li10="
+        ENT Surgeons"
+        li11="Breast Surgeons"
+        li12="Fertility Consultants"
+        li13="Andrologists"
+        li14="
+        Pediatricians"
+        li15="Hypertension Specialists"
+        li16="Consultant Physicians"
       />
-      <Accordion/>
-      <Helpline/>
+
       <Footer />
     </div>
   );

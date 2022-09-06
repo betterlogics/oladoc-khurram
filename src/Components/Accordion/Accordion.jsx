@@ -5,7 +5,7 @@ export default function Accordion() {
     <div className="bg-white overflow-hidden">
       <div className="container listing-brief-intro-section">
         <div className="row">
-          <div className="col">
+          <div className="col mt-2 text-start">
             <h4 className="fw-normal faq-heading">
               Frequently Asked Questions
             </h4>

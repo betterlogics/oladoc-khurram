@@ -1,0 +1,15 @@
+.slide-item {
+    height: 80px;
+    overflow: hidden;
+    background: #ddd;
+    display: flex!important;
+    align-items: center;
+    border-radius: 4px;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    font-size: medium !important;
+}
+.swiper-pagination-progressbar{
+    display: none;
+   
+}
