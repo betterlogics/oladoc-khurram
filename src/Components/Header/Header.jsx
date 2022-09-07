@@ -69,51 +69,91 @@ export default function Header() {
                           </li>
                           <li>
                           <Link
-                              to="/Dermatologist_main"
+                              to="/Gynecologist_main"
                               className="dropdown-item"
                             >
                               Gynecologist <BsArrowRightShort />
                             </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Psychiatrist <BsArrowRightShort />
-                            </a>
+
+                            </Link>
+                            
+                           
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Urologist <BsArrowRightShort />
-                            </a>
+
+                            </Link>
+                           
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Sexologist <BsArrowRightShort />
-                            </a>
+
+                            </Link>
+                       
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
+
                               ENT Specialist <BsArrowRightShort />
-                            </a>
+                            </Link>
+                           
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Eye Specialist <BsArrowRightShort />
-                            </a>
+                              
+                            </Link>
+                          
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                              <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Neurologist <BsArrowRightShort />
-                            </a>
+                              
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            
+                              <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Orthopedic Surgeon <BsArrowRightShort />
-                            </a>
+                              
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                     
+                              <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Child Specialist <BsArrowRightShort />
-                            </a>
+                              
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -122,7 +162,7 @@ export default function Header() {
                         <ul>
                           <li>
                           
-                              <Link to="/Labs_main" className="dropdown-item">
+                              <Link to="/Mri_main" className="dropdown-item">
 
                               MRI <BsArrowRightShort />
                               </Link>
@@ -577,8 +617,9 @@ export default function Header() {
                     <div className="row">
                       <h5 className="ps-5">Lahore</h5>
                       <div className="col-3">
+                        <Link to='/Chughtai_main' className="nav-link">
                         <a
-                          href=""
+                         
                           className="dropdown-item dropdown-speciality border"
                         >
                           <img
@@ -590,6 +631,8 @@ export default function Header() {
                             Chughtai Lab
                           </span>
                         </a>
+                        </Link>
+                      
                       </div>
                       <div className="col-3">
                         <a

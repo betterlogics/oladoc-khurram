@@ -13,7 +13,7 @@ export default function Doctor() {
     <div>
       <Mobilenav />
       <Header />
-      <Searchform />
+      <Searchform/>
       <Citylisting />
       <Odcitylisting />
       <Aboutdoc />

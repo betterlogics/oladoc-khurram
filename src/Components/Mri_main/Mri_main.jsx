@@ -1,25 +1,26 @@
 import React from "react";
-import Aboutsection from "../Aboutsection/Aboutsection";
+import Aboutdoc from "../Aboutdoc/Aboutdoc";
+import Aboutdochospital from "../Aboutdochospital/Aboutdochospital";
 import Accordion from "../Accordion/Accordion";
+import Doctorscroll from "../Doctorscroll/Doctorscroll";
 import Faqs from "../Doctorshospital_main/Faqs/Faqs";
 import Footer from "../Footer/Footer";
 import Header from "../Header/Header";
 import Helpline from "../Helpline/Helpline";
 import Labcards from "../Labcards/Labcards";
 import Labsheader from "../Labsheader/Labsheader";
+import Labbox from "../Labs_main/Labbox/Labbox";
 import Mobilenav from "../Mobilenav/Mobilenav";
 import Scrollnav from "../Scrollnav/Scrollnav";
-import Labbox from "./Labbox/Labbox";
 
-export default function Labs_main() {
+export default function Mri_main() {
   return (
-    <div className="hospital-section">
-      <Mobilenav />
+    <div>
       <Header />
-      <Labsheader
-        heading="16 Best Radiology Labs in Lahore"
-        li="RADIOLOGY LABS IN LAHORE"
-      />
+      <Mobilenav />
+      <Labsheader   heading="16 Best Doctors for MRI in Lahore"
+        li="DOCTORS FOR MRI IN LAHORE"
+        li2='TREATMENT'        />
       <Scrollnav />
       <Labcards
         imgsrc="/(CMCLOG).jpg"
@@ -48,16 +49,6 @@ export default function Labs_main() {
         experience="Experience"
         patient="88% (460)"
         satisfied="Satisfied Patients"
-        title1="Islamabad Diagnostic Centre, Jail Road (Jail Road)"   imgsrc="/idc.jpg"
-        title="Islamabad Diagnostic Centre, LHR (20% Discount)"
-        docspecialization=" Radiology Lab, Pathology Lab"
-        //  docdegree="M.B.B.S., PGDip. In Dermatology (UK)"
-        wait="15 - 30 Min"
-        time="Wait Time"
-        years="15 Years"
-        experience="Experience"
-        patient="88% (460)"
-        satisfied="Satisfied Patients"
         title1="Islamabad Diagnostic Centre, Jail Road (Jail Road)"
       />
       <Labbox
@@ -71,22 +62,17 @@ export default function Labs_main() {
         experience="Experience"
         patient="88% (460)"
         satisfied="Satisfied Patients"
-        title1="Al Razi Healthcare Lab (Gulberg)"
-      />
-      <Labbox
-        imgsrc="/aga.png"
-        title="Al Razi Healthcare Lab"
-        docspecialization=" Radiology Lab"
-        //  docdegree="M.B.B.S., PGDip. In Dermatology (UK)"
-        //  wait="15 - 30 Min"
-        //  time="Wait Time"
-        years="15 Years"
-        experience="Experience"
-        //  patient="88% (460)"
-        //  satisfied="Satisfied Patients"
-        title1="Al Razi Healthcare Lab (Gulberg)"
-      />
-      <Aboutsection />
+        title1="Al Razi Healthcare Lab (Gulberg)"/>
+        <Labbox
+          imgsrc="/aga.png"
+          title="Al Razi Healthcare Lab"
+          docspecialization=" Radiology Lab"
+          years="15 Years"
+          experience="Experience"
+          title1="Al Razi Healthcare Lab (Gulberg)"/>
+      
+      
+      <Aboutdochospital />
       <Accordion />
       <Helpline />
       <Faqs
@@ -106,15 +92,8 @@ CT Scan"
         li8="
         Mammography"
         li9="Transrectal Ultrasound"
+       
       />
-      <Faqs
-        accordiontitle="Radiology Labs in areas near you
-        "
-        // title='Top 10 doctors of September 2022 in Doctors Hospital are:'
-        li1="Jail Road"
-        
-      />
-      
       <Footer />
     </div>
   );

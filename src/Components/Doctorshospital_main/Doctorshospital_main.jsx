@@ -1,7 +1,6 @@
 import React from "react";
 import Aboutdochospital from "../Aboutdochospital/Aboutdochospital";
 import Accordion from "../Accordion/Accordion";
-
 import Contactloc from "../Contactloc/Contactloc";
 import Doctorsbyspeciality from "../Doctorsbyspeciality/Doctorsbyspeciality";
 import Experiencedoc from "../Experiencedoc/Experiencedoc";
@@ -133,17 +132,7 @@ ENT"
       <Aboutdochospital />
       <Slider />
       <Accordion />
-      {/* <div className="bg-white overflow-hidden">
-      <div className="container listing-brief-intro-section">
-        <div className="row">
-          <div className="col mt-2 text-start">
-            <h4 className="fw-normal faq-heading ms-2">
-              Frequently Asked Questions
-            </h4>
-          </div>
-        </div>
-      </div>
-      </div> */}
+    
       <Helpline />
       <Faqs
         accordiontitle="Top Specialists in Doctors Hospital Lahore"
@@ -171,6 +160,33 @@ ENT"
         Pediatricians"
         li15="Hypertension Specialists"
         li16="Consultant Physicians"
+      />
+      <Faqs
+        accordiontitle="Top Specialists in Lahore"
+        // title='Top 10 doctors of September 2022 in Doctors Hospital are:'
+        li1="Best Obstetricians in Lahore"
+        li2="
+     Best Gynecologists in Lahore"
+        li3="Best Orthopedic Surgeons in Lahore
+      "
+        li4="
+      Best General Surgeons in Lahore
+      "
+        li5="Best Laparoscopic Surgeons in Lahore"
+        li6="
+        Best Spinal Surgeons in Lahore"
+        li7="Best Internal Medicine Specialists in Lahore"
+        li8="Best ENT Specialists in Lahore"
+        li9="Best Urologists in Lahore"
+        li10="
+        Best ENT Surgeons in Lahore"
+        li11="Best Breast Surgeons in Lahore"
+        li12="Best Fertility Consultants in Lahore"
+        li13="Best Andrologists in Lahore"
+        li14=" Best
+        Pediatricians in Lahore"
+        li15="Best Hypertension Specialists in  Lahore"
+        li16="Best Consultant Physicians in Lahore"
       />
 
       <Footer />

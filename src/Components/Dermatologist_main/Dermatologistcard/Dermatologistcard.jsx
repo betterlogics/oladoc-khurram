@@ -1,25 +1,22 @@
-import React from "react";
-import "./Labcards.css";
+import React from 'react'
 import { GoPrimitiveDot } from "react-icons/go";
-import {AiOutlineCalendar} from "react-icons/ai"
-export default function Labcards({
-  title,
-  docspecialization,
-  docdegree,
-  imgsrc,
-  wait,
-  time,
-  years,
-  experience,
-  patient,
-  satisfied,
-  price,
-  title1,
-  discription
-}) {
+export default function Dermatologistcard({
+    title,
+    docspecialization,
+    docdegree,
+    imgsrc,
+    wait,
+    time,
+    years,
+    experience,
+    patient,
+    satisfied,
+    price,
+    title1
+  }) {
   return (
     <div>
-      <div className="container my-4">
+       <div className="container my-4">
         <div className="row">
           <div className="col-px-2">
             <div className="list-item-page">
@@ -72,10 +69,10 @@ export default function Labcards({
                       <div className="col-11 mb-2">
                         <a
                           href=""
-                          className="btn d-block btn-warning text-white fw-normal  "
+                          className="btn d-block btn-primary text-white fw-normal  "
                         >
                           {" "}
-                          <span>Book Appointment</span>
+                          <span>Call Helpline</span>
                         </a>
                       </div>
                     </div>
@@ -85,12 +82,13 @@ export default function Labcards({
                       className="text-truncate-dot review-text mx-2"
                       style={{ maxwidth: "150px" }}
                     >
-                      {discription}
+                     She is a fabulos person. very good dr, i would recommend her to every one.
+
                     </q>
                   </div>
                 </div>
                 <div className="row">
-                  <div className="col-12 ps-0 px-md- py-lg-2 order-lg-4 mx-2">
+                <div className="col-12 ps-0 px-md- py-lg-2 order-lg-4 mx-2">
                     <div className="dd-hospital-carddetails overflow-scroll d-flex flex-nowrap py-3">
                       <div>
                         <a
@@ -100,9 +98,12 @@ export default function Labcards({
                           <div className="p-2 listing-locations">
                             <div className="d-flex fw-normal">
                               <span className="text-truncate d-block mb-1 fw-normal">
-                                {title1}
+                            {title1}
                               </span>
-                           
+                              {/* <span className="ms-auto flex-shrink-0 ps-2">
+                                Fee:
+                                <span className="text-muted">N/A</span>
+                              </span> */}
                             </div>
                             <div className="d-flex">
                               <div className="px-2 text-truncate fw-normal">
@@ -116,10 +117,8 @@ export default function Labcards({
                                 </div>
                               </div>
                               <div className="d-inline flex-shrink-0 ms-auto fw-normal">
-                              <span className="ms-auto flex-shrink-0 ps-2">
-                                Fee:
-                                <span className="text-muted">N/A</span>
-                              </span>
+                                {" "}
+                                <span>Rs. 2,000</span>{" "}
                               </div>
                             </div>
                           </div>
@@ -136,25 +135,27 @@ export default function Labcards({
                               <span className="text-truncate d-block mb-1 fw-normal">
                                 {title1}
                               </span>
-                           
+                              {/* <span className="ms-auto flex-shrink-0 ps-2">
+                                Fee:
+                                <span className="text-muted">N/A</span>
+                              </span> */}
                             </div>
                             <div className="d-flex">
                               <div className="px-2 text-truncate fw-normal">
-                                <div className="row  text-decoration-none d-inline">
+                                <div className="row text-available text-decoration-none d-inline">
                                   <span className="me-2 icon-available">
-                                    <AiOutlineCalendar />
+                                    <GoPrimitiveDot />
                                   </span>
                                   <span className="col ps-0 text-truncate fw-normal">
-                                  M, Tu, W, Th, F, Sa, Su
+                                    Available Today
                                   </span>
                                 </div>
                               </div>
                               <div className="d-inline flex-shrink-0 ms-auto fw-normal">
-                                 <span className="ms-auto flex-shrink-0 ps-2">
-                                Fee:
-                                <span className="text-muted">N/A</span>
-                              </span>
+                                {" "}
+                                <span>Rs. 2,000</span>{" "}
                               </div>
+                             
                             </div>
                           </div>
                         </a>
@@ -168,18 +169,22 @@ export default function Labcards({
                           <div className="p-2 listing-locations">
                             <div className="d-flex fw-normal">
                               <span className="text-truncate d-block mb-1 fw-normal">
-                             {title}
+                                Chughtai Lab Head Office (All Radiology,
+                                Pathology) (Jail Road)
                               </span>
-                             
+                              {/* <span className="ms-auto flex-shrink-0 ps-2">
+                                Fee:
+                                <span className="text-muted">N/A</span>
+                              </span> */}
                             </div>
                             <div className="d-flex">
                               <div className="px-2 text-truncate fw-normal">
-                                <div className="row  text-decoration-none d-inline">
+                                <div className="row text-available text-decoration-none d-inline">
                                   <span className="me-2 icon-available">
-                                  <AiOutlineCalendar />
+                                    <GoPrimitiveDot />
                                   </span>
                                   <span className="col ps-0 text-truncate fw-normal">
-                                  M, Tu, W, Th, F, Sa, Su
+                                    Available Today
                                   </span>
                                 </div>
                               </div>
@@ -243,5 +248,5 @@ export default function Labcards({
         </div>
       </div>
     </div>
-  );
+  )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import Dermatologistcard from '../Dermatologist_main/Dermatologistcard/Dermatologistcard'
 import Doctorscard from '../Doctorscard/Doctorscard'
 import Doctorscroll from '../Doctorscroll/Doctorscroll'
 import Footer from '../Footer/Footer'
@@ -7,18 +8,31 @@ import Labcards from '../Labcards/Labcards'
 import Labsheader from '../Labsheader/Labsheader'
 import Mobilenav from '../Mobilenav/Mobilenav'
 import Scrollnav from '../Scrollnav/Scrollnav'
-import Dermatologistcard from './Dermatologistcard/Dermatologistcard'
 
-export default function Dermatologist_main() {
+export default function Gynecologist_main() {
   return (
     <div>
-      <Mobilenav/>
+         <Mobilenav/>
       <Header/>
       <Labsheader
-       heading="231 Best Dermatologists/Skin Specialists in Lahore"
-       li="DERMATOLOGISTS IN LAHORE"
-       para='Also known as Skin Specialist ,ماہرامراض جلد ,Skin Doctor and Mahir-e-imraz-e-jild'/>
+       heading="584 Best Gynecologists in Lahore"
+       li="GYNECOLOGISTS IN LAHORE"
+       para='Also known as Female Health Specialist ,ماہرِ اَمراضِ نِسواں ,OB-GYN, Women Health Specialist and Mahir-e-imraz-e-niswan'/>
       <Scrollnav/>
+      <Dermatologistcard
+         imgsrc="/nazil-hameed.png"
+         title="Prof. Col. Dr. Nazli Hameed"
+         docspecialization=" Gynecologist, Obstetrician"
+         docdegree="MBBS, FCPS (Gynecology & Obstetrics), MRCOG (UK), Diploma in Minimal Access Surgery ( France) , FRC
+         "
+         wait="Under 15 Min"
+         time="Wait Time"
+         years="10 Years"
+         experience="Experience"
+         patient="98% (84)"
+         satisfied="Satisfied Patients"
+         title1='National Hospital & Medical Centre (DHA)'
+         price='Rs. 3,000'/>
       <Doctorscard
        imgsrc="/dr-sana.jpg"
        title="Dr. Sana Sheraz Javaid"
@@ -49,20 +63,7 @@ export default function Dermatologist_main() {
        patient="98% (165)"
        satisfied="Satisfied Patients"
        />
-     <Dermatologistcard
-      imgsrc="/Farhana-Nazir.jpg"
-      title="Dr. Sana Sheraz Javaid"
-      docspecialization=" Dermatologist, Laser Specialist,  Cosmetologist"
-      docdegree="M.B.B.S., M.C.P.S
-      "
-      wait="Under 15 Min"
-      time="Wait Time"
-      years="10 Years"
-      experience="Experience"
-      patient="98% (84)"
-      satisfied="Satisfied Patients"
-      title1='Smile Care Dental & Skin Clinic (PIA Society)'
-      price='Rs. 1,500'/>
+       
       <Footer/>
     </div>
   )

@@ -6,6 +6,7 @@ import {AiOutlineInstagram} from "react-icons/ai"
 import {FaFacebookF} from "react-icons/fa"
 import {AiFillYoutube} from "react-icons/ai"
 import {AiOutlineMail} from "react-icons/ai"
+import { Routes, Route, Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div>
@@ -75,10 +76,12 @@ export default function Footer() {
                   </span>
                   <ul className="footer-list">
                     <li>
-                      <a href="">Karachi</a>
+                    <Link to="/Karachi_main">Karachi</Link>
+                     
                     </li>
                     <li>
-                      <a href="">Lahore</a>
+                    <Link to="/Doctor_main">Lahore</Link>
+                    
                     </li>
                     <li>
                       <a href="">Islamabad</a>
@@ -124,16 +127,23 @@ export default function Footer() {
                   </a>
                   <ul className="footer-list">
                     <li>
-                      <a href="">Doctors Hospital</a>
+                    <Link to="/Doctorshospital_main">Doctors Hospital</Link>
+                      
                     </li>
                     <li>
-                      <a href="">Hameed Latif Hospital</a>
+                     <Link to="/Doctorshospital_main">Hameed Latif Hospital</Link>
                     </li>
                     <li>
-                      <a href="">National Hospital</a>
+                    <Link to="/Doctorshospital_main">
+
+                      National Hospital
+                    </Link>
                     </li>
                     <li>
-                      <a href="">Fatima MemorialHospital</a>
+                    <Link to="/Doctorshospital_main">
+                    Fatima MemorialHospital
+
+                    </Link>
                     </li>
                     <li>
                       <a href="">Omar Hospital and Cardic Center</a>
@@ -176,7 +186,10 @@ export default function Footer() {
                   </span>
                   <ul className="footer-list">
                     <li>
-                      <a href="">Mri in Lahore</a>
+                    <Link to="/Mri_main">
+                     Mri in Lahore
+
+                    </Link>
                     </li>
                     <li>
                       <a href="">X-RAY in Lahore</a>

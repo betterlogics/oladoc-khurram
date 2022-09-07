@@ -20,6 +20,9 @@ import Userreview from "./Components/Userreview/Userreview";
 import Blogs_main from "./Components/Blogs_main/Blogs_main";
 import Dermatologist_main from "./Components/Dermatologist_main/Dermatologist_main";
 import Doctorshospital_main from "./Components/Doctorshospital_main/Doctorshospital_main";
+import Karachi_main from "./Components/Karachi_main/Karachi_main";
+import Mri_main from "./Components/Mri_main/Mri_main";
+import Gynecologist_main from "./Components/Gynecologist_main/Gynecologist_main";
 
 import {
   BrowserRouter as Router,
@@ -28,10 +31,10 @@ import {
   Navigate,
   BrowserRouter,
 } from "react-router-dom";
+import Chughtai_main from "./Components/Chughtai_main/Chughtai_main";
 function App() {
   return (
     <div className="App">
-      
       <Routes>
         <Route exact path="/" element={<Index_main />} />
         <Route exact path="/Doctor_main" element={<Doctor_main />} />
@@ -43,9 +46,16 @@ function App() {
           path="/Dermatologist_main"
           element={<Dermatologist_main />}
         />
-        <Route exact path="/Doctorshospital_main" element={<Doctorshospital_main/>}/>
+        <Route exact path="/Gynecologist_main" element={<Gynecologist_main/>}/>
+        <Route
+          exact
+          path="/Doctorshospital_main"
+          element={<Doctorshospital_main />}
+        />
+        <Route exact path="/Karachi_main" element={<Karachi_main />} />
+        <Route exact path="/Mri_main" element={<Mri_main />}/>
+        <Route exact path="/Chughtai_main" element={<Chughtai_main/>}/>
       </Routes>
-      
     </div>
   );
 }

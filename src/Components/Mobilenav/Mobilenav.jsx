@@ -78,21 +78,17 @@ export default function Mobilenav() {
                     <NavDropdown.Item >
                       <Link to="/Dermatologist_main" className="nav-link">Dermatologist</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">Gynecologist</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Psychiatrist</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Urologist</NavDropdown.Item>
-                    <NavDropdown.Item href="#">sexologist</NavDropdown.Item>
-                    <NavDropdown.Item href="#">ENT Specialist</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Eye Specialist</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Neurologist</NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Orthopedic Surgeon
-                    </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Child Specialist
-                    </NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Gynecologist_main' className="nav-link">Gynecologist</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Gynecologist_main' className="nav-link">Psychiatrist</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Gynecologist_main' className="nav-link">Urologist</Link></NavDropdown.Item>
+                    <NavDropdown.Item ><Link to='/Gynecologist_main' className="nav-link">sexologist</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Gynecologist_main' className="nav-link">ENT Specialist</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Gynecologist_main' className="nav-link">Eye Specialist</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Gynecologist_main' className="nav-link">Neurologist</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Gynecologist_main' className="nav-link">Orthopedic Surgeon</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Gynecologist_main' className="nav-link">Child Specialist</Link></NavDropdown.Item>
                     <h6>Find Doctor By Treatment</h6>
-                    <NavDropdown.Item href="#">Mri</NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Mri_main' className="nav-link">Mri</Link></NavDropdown.Item>
                     <NavDropdown.Item href="#">CT Scan</NavDropdown.Item>
                     <NavDropdown.Item href="#">
                       Laiser Hair Removal
@@ -137,11 +133,11 @@ export default function Mobilenav() {
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                     <h6>Lahore Hospitals</h6>
-                    <NavDropdown.Item href="#">
-                      Doctor Hospital
+                    <NavDropdown.Item >
+                    <Link to="/Doctorshospital_main" className="nav-link">  Doctor Hospital</Link>
+                    
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Hameed Latif Hospital
+                    <NavDropdown.Item>  <Link to="/Doctorshospital_main" className="nav-link">  Hameed Latif Hospital</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#">
                       Omar Hospital $ Cardiac center
@@ -240,13 +236,13 @@ export default function Mobilenav() {
                     title="Diagnostics and Lab"
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
-                    <NavDropdown.Item href="#">Lahore Labs</NavDropdown.Item>
+                    <NavDropdown.Item><Link to="/Labs_main" className="nav-link">Lahore Labs</Link></NavDropdown.Item>
                     <NavDropdown.Item href="#">
                       Isalamabad Labs
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#">Karachi Labs</NavDropdown.Item>
                   </NavDropdown>
-                  <Nav.Link href="#action1">Health Blogs</Nav.Link>
+                  <Nav.Link><Link to="/Blogs_main" className="nav-link">Health Blogs</Link></Nav.Link>
                 </Nav>
                 <div className="bg-white mobile-link-btn mt-4">
                   <div className="container d-block">
