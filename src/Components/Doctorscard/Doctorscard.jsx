@@ -79,9 +79,9 @@ export default function Doctorscard({
                   </div>
                 
                 </div>
-                <div className="row">
+             
                   <div className="col-12 ps-0 px-md-3 py-lg-2 order-lg-4 ms-3">
-                    <div className="dd-hospital-carddetails overflow-scroll d-flex flex-nowrap py-3">
+                    <div className="dd-hospital-carddetails overflow-hidden d-flex  py-3">
                       <div>
                         <a
                           href=""
@@ -115,7 +115,7 @@ export default function Doctorscard({
                       </div>
                     </div>
                   </div>
-                </div>
+                
               </div>
               {/*  */}
             </div>

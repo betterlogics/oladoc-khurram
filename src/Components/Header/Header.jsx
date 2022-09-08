@@ -68,7 +68,7 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                          <Link
+                            <Link
                               to="/Gynecologist_main"
                               className="dropdown-item"
                             >
@@ -76,83 +76,67 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                          <Link
+                            <Link
                               to="/Dermatologist_main"
                               className="dropdown-item"
                             >
                               Psychiatrist <BsArrowRightShort />
-
                             </Link>
-                            
-                           
                           </li>
                           <li>
-                          <Link
+                            <Link
                               to="/Dermatologist_main"
                               className="dropdown-item"
                             >
                               Urologist <BsArrowRightShort />
-
                             </Link>
-                           
                           </li>
                           <li>
-                          <Link
+                            <Link
                               to="/Dermatologist_main"
                               className="dropdown-item"
                             >
                               Sexologist <BsArrowRightShort />
-
                             </Link>
-                       
                           </li>
                           <li>
-                          <Link
+                            <Link
                               to="/Dermatologist_main"
                               className="dropdown-item"
                             >
-
                               ENT Specialist <BsArrowRightShort />
                             </Link>
-                           
                           </li>
                           <li>
-                          <Link
+                            <Link
                               to="/Dermatologist_main"
                               className="dropdown-item"
                             >
                               Eye Specialist <BsArrowRightShort />
-                              
                             </Link>
-                          
                           </li>
                           <li>
-                              <Link
+                            <Link
                               to="/Dermatologist_main"
                               className="dropdown-item"
                             >
                               Neurologist <BsArrowRightShort />
-                              
                             </Link>
                           </li>
                           <li>
-                            
-                              <Link
+                            <Link
                               to="/Dermatologist_main"
                               className="dropdown-item"
                             >
                               Orthopedic Surgeon <BsArrowRightShort />
-                              
                             </Link>
                           </li>
                           <li>
-                     
-                              <Link
+                            <Link
                               to="/Dermatologist_main"
                               className="dropdown-item"
                             >
                               Child Specialist <BsArrowRightShort />
-                              
                             </Link>
                           </li>
                         </ul>
@@ -161,37 +145,34 @@ export default function Header() {
                         <h6>Find Doctor by Treatment</h6>
                         <ul>
                           <li>
-                          
-                              <Link to="/Mri_main" className="dropdown-item">
-
+                            <Link to="/Mri_main" className="dropdown-item">
                               MRI <BsArrowRightShort />
-                              </Link>
-                        
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link to="/Mri_main" className="dropdown-item">
                               CT Scan <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link to="/Mri_main" className="dropdown-item">
                               Laser Hair Removal <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link to="/Mri_main" className="dropdown-item">
                               Test Tube Baby <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link to="/Mri_main" className="dropdown-item">
                               Penile Implant <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link to="/Mri_main" className="dropdown-item">
                               Normal Delivery <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">
@@ -219,29 +200,45 @@ export default function Header() {
                         <h6>Find Doctor by Condition</h6>
                         <ul>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Piles <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Male Sexual Dysfunction <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Male Infertility <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
+                              {" "}
                               Hernia <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Erectile Dysfunction <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">
@@ -274,44 +271,68 @@ export default function Header() {
                         <h6 className="text-center">Find Doctor Online</h6>
                         <ul>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Online Dermatologist
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Online Gynecologist
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Online Psychiatrist
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Online Urologist
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Online Sexologist
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Online ENT Specialist
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Online Eye Specialist
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Online Neurologist
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">
@@ -350,10 +371,10 @@ export default function Header() {
                     <div className="row ">
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Hospital</h4>
-                        
-                          <Link to="/Hospital_main" className="nav-link">View all Hospital   <BsArrowRightShort /></Link>
-                       
-                       
+
+                        <Link to="/Hospital_main" className="nav-link">
+                          View all Hospital <BsArrowRightShort />
+                        </Link>
                       </div>
                     </div>
                     <div className="row">
@@ -361,35 +382,47 @@ export default function Header() {
                         <h6 className="text-center">Lahore</h6>
                         <ul>
                           <li>
-                            
-                              <Link to="/Doctorshospital_main" className="dropdown-item">
-
+                            <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Doctors Hospital
                               <BsArrowRightShort />
-                              </Link>
-                          
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Hameed Latif Hospital
                               <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Omar Hospital & Cardiac Center{" "}
                               <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Mid City Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Surgimed Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">
@@ -397,9 +430,12 @@ export default function Header() {
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Fatima Memorial Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">
@@ -412,9 +448,9 @@ export default function Header() {
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link to="/Hospital_main" className="dropdown-item">
                               All Hospitals in Lahore <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -422,30 +458,45 @@ export default function Header() {
                         <h6 className="text-center">Karachi</h6>
                         <ul>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Hashminas Hospital
                               <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               South City Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Altamash General Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Medicare & General Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Dr. Ziauddin Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">
@@ -468,9 +519,9 @@ export default function Header() {
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link to="/Hospital_main" className="dropdown-item">
                               All Hospitals in Karachi <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -478,26 +529,39 @@ export default function Header() {
                         <h6 className="text-center">Islamabad</h6>
                         <ul>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            {" "}
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Advance Medical Center <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Islamabad International Hospital{" "}
                               <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Shifa International Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Maroof International Hospital{" "}
                               <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">
@@ -527,9 +591,9 @@ export default function Header() {
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link to="/Hospital_main" className="dropdown-item">
                               All Hospitals in Islamabad <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -537,24 +601,36 @@ export default function Header() {
                         <h6 className="text-center">Rawalpindi</h6>
                         <ul>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Relince Hospital
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Khatoon Hospital
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Shaafi International Hospital
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link
+                              to="/Hameedhospital_main"
+                              className="dropdown-item"
+                            >
                               Fauji Foundation Hospital
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <a className="dropdown-item" href="#">
@@ -577,9 +653,9 @@ export default function Header() {
                             </a>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                            <Link to="/Hospital_main" className="dropdown-item">
                               All Hospitals in Rawalpindi
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -608,106 +684,111 @@ export default function Header() {
                     <div className="row ">
                       <div className="col-12 pb-4 specialties">
                         <h4>Chose a Lab</h4>
-                              <Link to="/Labs_main" className="nav-link">
-                            View all Labs <BsArrowRightShort />
-                          </Link>
-                     
+                        <Link to="/Labs_main" className="nav-link">
+                          View all Labs <BsArrowRightShort />
+                        </Link>
                       </div>
                     </div>
                     <div className="row">
                       <h5 className="ps-5">Lahore</h5>
                       <div className="col-3">
-                        <Link to='/Chughtai_main' className="nav-link">
-                        <a
-                         
-                          className="dropdown-item dropdown-speciality border"
-                        >
-                          <img
-                            src={CMCLOG}
-                            alt=""
-                            className="rounded-circle w-25"
-                          />
-                          <span className="speciality-title ms-2">
-                            Chughtai Lab
-                          </span>
-                        </a>
+                        <Link to="/Chughtai_main" className="nav-link">
+                          <a className="dropdown-item dropdown-speciality border">
+                            <img
+                              src={CMCLOG}
+                              alt=""
+                              className="rounded-circle w-25"
+                            />
+                            <span className="speciality-title ms-2">
+                              Chughtai Lab
+                            </span>
+                          </a>
                         </Link>
-                      
                       </div>
                       <div className="col-3">
-                        <a
-                          href=""
-                          className="dropdown-item dropdown-speciality border"
-                        >
-                          <img
-                            src="/Nasarlab.png"
-                            alt=""
-                            className="rounded-circle w-25"
-                          />
-                          <span className="speciality-title ms-2">
-                            Al-Nasar Lab
-                          </span>
-                        </a>
+                        <Link to="/Chughtai_main" className="nav-link">
+                          <a
+                            href=""
+                            className="dropdown-item dropdown-speciality border"
+                          >
+                            <img
+                              src="/Nasarlab.png"
+                              alt=""
+                              className="rounded-circle w-25"
+                            />
+                            <span className="speciality-title ms-2">
+                              Al-Nasar Lab
+                            </span>
+                          </a>
+                        </Link>
                       </div>
                       <div className="col-3">
-                        <a
-                          href=""
-                          className="dropdown-item dropdown-speciality border"
-                        >
-                          <img
-                            src="DDLC.jpg"
-                            alt=""
-                            className="rounded-circle w-25"
-                          />
-                          <span className="speciality-title ms-2">
-                            Doctor Diagnostic...
-                          </span>
-                        </a>
+                        <Link to="/Chughtai_main" className="nav-link">
+                          <a
+                            href=""
+                            className="dropdown-item dropdown-speciality border"
+                          >
+                            <img
+                              src="DDLC.jpg"
+                              alt=""
+                              className="rounded-circle w-25"
+                            />
+                            <span className="speciality-title ms-2">
+                              Doctor Diagnostic...
+                            </span>
+                          </a>
+                        </Link>
                       </div>
                       <div className="col-3">
-                        <a
-                          href=""
-                          className="dropdown-item dropdown-speciality border"
-                        >
-                          <img
-                            src="/alnoor.jpg"
-                            alt=""
-                            className="rounded-circle w-25"
-                          />
-                          <span className="speciality-title ms-2">
-                            Alnoor Diagnostic
-                          </span>
-                        </a>
+                        <Link to="/Chughtai_main" className="nav-link">
+                          <a
+                            href=""
+                            className="dropdown-item dropdown-speciality border"
+                          >
+                            <img
+                              src="/alnoor.jpg"
+                              alt=""
+                              className="rounded-circle w-25"
+                            />
+                            <span className="speciality-title ms-2">
+                              Alnoor Diagnostic
+                            </span>
+                          </a>
+                        </Link>
                       </div>
                       <div className="col-3">
-                        <a
-                          href=""
-                          className="dropdown-item dropdown-speciality border"
-                        >
-                          <img
-                            src="/dr.jpg"
-                            alt=""
-                            className="rounded-circle w-25"
-                          />
-                          <span className="speciality-title ms-2">
-                            Dr.Essa Laboratory
-                          </span>
-                        </a>
+                        <Link to="/Chughtai_main" className="nav-link">
+                          <a
+                            href=""
+                            className="dropdown-item dropdown-speciality border"
+                          >
+                            <img
+                              src="/dr.jpg"
+                              alt=""
+                              className="rounded-circle w-25"
+                            />
+                            <span className="speciality-title ms-2">
+                              Dr.Essa Laboratory
+                            </span>
+                          </a>
+                        </Link>
                       </div>
                       <div className="col-3">
-                        <a
-                          href=""
-                          className="dropdown-item dropdown-speciality border"
-                        >
-                          <img
-                            src="/idc.jpg"
-                            alt=""
-                            className="rounded-circle w-25"
-                          />
-                          <span className="speciality-title ms-2">
-                            Islamabad Diagnostic
-                          </span>
-                        </a>
+                        <Link to="/Chughtai_main" className="nav-link">
+                          <a
+                            href=""
+                            className="dropdown-item dropdown-speciality border"
+                          >
+                            <img
+                              src="/idc.jpg"
+                              alt=""
+                              className="rounded-circle w-25"
+                            />
+                            <span className="speciality-title ms-2">
+                              Islamabad Diagnostic
+                            </span>
+                          </a>
+                        </Link>
                       </div>
                     </div>
                     <div className="row">

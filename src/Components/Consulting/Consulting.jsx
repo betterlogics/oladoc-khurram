@@ -25,7 +25,7 @@ export default function Consulting() {
                   <div className="card-body p-2">
                     <h5 className="card-title">Oladoc Care</h5>
                     <p className="card-text">
-                      Video Consultations with Top Specialists in Rs. 500
+                      Video Consultations with Top Specialists
                     </p>
                     <p className="card-text">
                       <spn className="book-now-bottom btn btn-warning">

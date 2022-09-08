@@ -80,7 +80,7 @@ export default function Labbox({
                   </div>
                 
                 </div>
-                <div className="row">
+           
                   <div className="col-12 ps-0 px-md-3 py-lg-2 order-lg-4 ms-3">
                     <div className="dd-hospital-carddetails overflow-scroll d-flex flex-nowrap py-3">
                       <div>
@@ -118,7 +118,7 @@ export default function Labbox({
                       </div>
                     </div>
                   </div>
-                </div>
+             
               </div>
               {/*  */}
             </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react'
 import Aboutdochospital from "../Aboutdochospital/Aboutdochospital";
 import Accordion from "../Accordion/Accordion";
 import Contactloc from "../Contactloc/Contactloc";
@@ -12,21 +12,19 @@ import Hospitalnav from "../Hospitalnav/Hospitalnav";
 import Mobilenav from "../Mobilenav/Mobilenav";
 import Scsection from "../Scsection/Scsection";
 import Slider from "../Slider/Slider";
-import Faqs from "./Faqs/Faqs";
-import Testcard from "../Testcard/Testcard";
 
-export default function Doctorshospital_main() {
+export default function Hameedhospital_main() {
   return (
-    <div className="bg-light">
-      <Header />
+    <div>
+        <Header />
       <Mobilenav />
   
       <Hospitalnav/>
       
       <Hospitalcard
-        imgsrc="doctors-hospital.webp"
-        title="Doctors Hospital"
-        para="152 A - G / 1, Canal Bank, Johar Town, Lahore"
+        imgsrc="/hameed-latif-hospital.webp"
+        title="Hameed Latif Hospital"
+        para="14 - Abu Bakar Block, New Garden Town, Lahore"
       />
       <Doctorsbyspeciality />
       <div className="container">
@@ -140,62 +138,9 @@ ENT"
       <Accordion />
 
       <Helpline />
-      <Faqs
-        accordiontitle="Top Specialists in Doctors Hospital Lahore"
-        // title='Top 10 doctors of September 2022 in Doctors Hospital are:'
-        li1="Obstetricians"
-        li2="
-      Gynecologists"
-        li3="Orthopedic Surgeons
-      "
-        li4="
-      General Surgeons
-      "
-        li5="Laparoscopic Surgeons"
-        li6="
-        Spinal Surgeons"
-        li7="Internal Medicine Specialists"
-        li8="ENT Specialists"
-        li9="Urologists"
-        li10="
-        ENT Surgeons"
-        li11="Breast Surgeons"
-        li12="Fertility Consultants"
-        li13="Andrologists"
-        li14="
-        Pediatricians"
-        li15="Hypertension Specialists"
-        li16="Consultant Physicians"
-      />
-      <Faqs
-        accordiontitle="Top Specialists in Lahore"
-        // title='Top 10 doctors of September 2022 in Doctors Hospital are:'
-        li1="Best Obstetricians in Lahore"
-        li2="
-     Best Gynecologists in Lahore"
-        li3="Best Orthopedic Surgeons in Lahore
-      "
-        li4="
-      Best General Surgeons in Lahore
-      "
-        li5="Best Laparoscopic Surgeons in Lahore"
-        li6="
-        Best Spinal Surgeons in Lahore"
-        li7="Best Internal Medicine Specialists in Lahore"
-        li8="Best ENT Specialists in Lahore"
-        li9="Best Urologists in Lahore"
-        li10="
-        Best ENT Surgeons in Lahore"
-        li11="Best Breast Surgeons in Lahore"
-        li12="Best Fertility Consultants in Lahore"
-        li13="Best Andrologists in Lahore"
-        li14=" Best
-        Pediatricians in Lahore"
-        li15="Best Hypertension Specialists in  Lahore"
-        li16="Best Consultant Physicians in Lahore"
-      />
-
+   
+    
       <Footer />
     </div>
-  );
+  )
 }

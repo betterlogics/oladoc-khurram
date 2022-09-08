@@ -23,6 +23,8 @@ import Doctorshospital_main from "./Components/Doctorshospital_main/Doctorshospi
 import Karachi_main from "./Components/Karachi_main/Karachi_main";
 import Mri_main from "./Components/Mri_main/Mri_main";
 import Gynecologist_main from "./Components/Gynecologist_main/Gynecologist_main";
+import Chughtai_main from "./Components/Chughtai_main/Chughtai_main";
+import Hameedhospital_main from "./Components/Hameedhospital_main/Hameedhospital_main";
 
 import {
   BrowserRouter as Router,
@@ -31,7 +33,6 @@ import {
   Navigate,
   BrowserRouter,
 } from "react-router-dom";
-import Chughtai_main from "./Components/Chughtai_main/Chughtai_main";
 function App() {
   return (
     <div className="App">
@@ -52,6 +53,7 @@ function App() {
           path="/Doctorshospital_main"
           element={<Doctorshospital_main />}
         />
+        <Route exact path="/Hameedhospital_main" element={<Hameedhospital_main/>}/>
         <Route exact path="/Karachi_main" element={<Karachi_main />} />
         <Route exact path="/Mri_main" element={<Mri_main />}/>
         <Route exact path="/Chughtai_main" element={<Chughtai_main/>}/>

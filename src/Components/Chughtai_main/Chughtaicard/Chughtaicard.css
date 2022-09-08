@@ -1,0 +1,20 @@
+.overall-feedback-text span {
+  font-size: 22px;
+  height: 70px;
+  width: 70px;
+}
+
+.overall-feedback-text span {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-shrink: 0;
+  font-size: 18px;
+  font-weight: 400;
+  background: black;
+  border-radius: 50%;
+  height: 63px;
+  width: 63px;
+  color: white;
+}

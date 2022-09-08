@@ -89,18 +89,18 @@ export default function Mobilenav() {
                     <NavDropdown.Item><Link to='/Gynecologist_main' className="nav-link">Child Specialist</Link></NavDropdown.Item>
                     <h6>Find Doctor By Treatment</h6>
                     <NavDropdown.Item><Link to='/Mri_main' className="nav-link">Mri</Link></NavDropdown.Item>
-                    <NavDropdown.Item href="#">CT Scan</NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Mri_main' className="nav-link">CT Scan</Link></NavDropdown.Item>
                     <NavDropdown.Item href="#">
                       Laiser Hair Removal
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">Test Tube Baby</NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Penile Implants
+                    <NavDropdown.Item><Link to='/Mri_main' className="nav-link">Test Tube Baby</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Mri_main' className="nav-link">
+                      Penile Implants</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Normal Delivery
+                    <NavDropdown.Item><Link to='/Mri_main' className="nav-link">
+                      Normal Delivery</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">IVF</NavDropdown.Item>
+                    <NavDropdown.Item >IVF</NavDropdown.Item>
                     <NavDropdown.Item href="#">
                       Laiser For Skin
                     </NavDropdown.Item>
@@ -139,11 +139,11 @@ export default function Mobilenav() {
                     </NavDropdown.Item>
                     <NavDropdown.Item>  <Link to="/Doctorshospital_main" className="nav-link">  Hameed Latif Hospital</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Omar Hospital $ Cardiac center
+                    <NavDropdown.Item >  <Link to="/Doctorshospital_main" className="nav-link">
+                      Omar Hospital $ Cardiac center</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Mid City Hospital{" "}
+                    <NavDropdown.Item >  <Link to="/Doctorshospital_main" className="nav-link">
+                      Mid City Hospital{" "}</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item href="#">
                       National Hospital & Medical Center{" "}
@@ -237,10 +237,10 @@ export default function Mobilenav() {
                     id={`offcanvasNavbarDropdown-expand-${expand}`}
                   >
                     <NavDropdown.Item><Link to="/Labs_main" className="nav-link">Lahore Labs</Link></NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Isalamabad Labs
+                    <NavDropdown.Item ><Link to="/Labs_main" className="nav-link">
+                      Isalamabad Labs</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">Karachi Labs</NavDropdown.Item>
+                    <NavDropdown.Item ><Link to="/Labs_main" className="nav-link">Karachi Labs</Link></NavDropdown.Item>
                   </NavDropdown>
                   <Nav.Link><Link to="/Blogs_main" className="nav-link">Health Blogs</Link></Nav.Link>
                 </Nav>

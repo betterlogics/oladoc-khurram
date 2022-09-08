@@ -87,9 +87,9 @@ export default function Dermatologistcard({
                     </q>
                   </div>
                 </div>
-                <div className="row">
-                <div className="col-12 ps-0 px-md- py-lg-2 order-lg-4 mx-2">
-                    <div className="dd-hospital-carddetails overflow-scroll d-flex flex-nowrap py-3">
+                {/* <div className="row"> */}
+                <div className="col-12 ps-0 px-md-3 py-lg-2 order-lg-4 mx-2">
+                    <div className="dd-hospital-carddetails overflow-auto d-flex py-3">
                       <div>
                         <a
                           href=""
@@ -240,7 +240,7 @@ export default function Dermatologistcard({
                       </div>
                     </div>
                   </div>
-                </div>
+                {/* </div> */}
               </div>
               {/*  */}
             </div>

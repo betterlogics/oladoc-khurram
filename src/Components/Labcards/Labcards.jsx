@@ -89,7 +89,7 @@ export default function Labcards({
                     </q>
                   </div>
                 </div>
-                <div className="row">
+         
                   <div className="col-12 ps-0 px-md- py-lg-2 order-lg-4 mx-2">
                     <div className="dd-hospital-carddetails overflow-scroll d-flex flex-nowrap py-3">
                       <div>
@@ -235,7 +235,7 @@ export default function Labcards({
                       </div>
                     </div>
                   </div>
-                </div>
+             
               </div>
               {/*  */}
             </div>

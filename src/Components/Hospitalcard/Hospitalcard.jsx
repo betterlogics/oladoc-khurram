@@ -2,7 +2,7 @@ import React from "react";
 import { BsTelephoneFill } from "react-icons/bs";
 import {SiGooglemaps} from "react-icons/si"
 import "./Hospitalcard.css";
-export default function Hospitalcard() {
+export default function Hospitalcard({imgsrc,title,para}) {
   return (
     <div>
       <div className="container ">
@@ -11,7 +11,7 @@ export default function Hospitalcard() {
             <div class="col-md-4 avatar m-3">
               <span className="css-avatar-img d-block overflow-hidden rounded-circle">
                 <img
-                  src="doctors-hospital.webp"
+                  src={imgsrc}
                   className="img-fluid "
                   alt="..."
                 />
@@ -19,9 +19,9 @@ export default function Hospitalcard() {
             </div>
             <div class="col-md-8">
               <div class="card-body text-start">
-                <h5 class="card-title">Doctors Hospital</h5>
+                <h5 class="card-title">{title}</h5>
                 <p class="card-text">
-                  152 A - G / 1, Canal Bank, Johar Town, Lahore
+               {para}
                 </p>
                 <ul className="list-unstyled d-flex">
                     <li>
