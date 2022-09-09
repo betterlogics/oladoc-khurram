@@ -175,24 +175,24 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link to="/Mri_main" className="dropdown-item">
                               IVF <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link to="/Mri_main" className="dropdown-item">
                               Laser for Skin <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link to="/Mri_main" className="dropdown-item">
                               Vaccination <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link to="/Mri_main" className="dropdown-item">
                               All Treatments <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -241,29 +241,44 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Acne Scars <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Skin Diseases <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Thyroid Diseases <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Testicular Torsion <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               All Conditions <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -335,14 +350,20 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Online Orthopedic Surgeon
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
                               Online Child Specialist
-                            </a>
+                            </Link>
                           </li>
                         </ul>
                       </div>
@@ -425,9 +446,12 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               National Hospiatal <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link
@@ -438,14 +462,20 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Ittefaq Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Iqra Medical Complex <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to="/Hospital_main" className="dropdown-item">
@@ -499,24 +529,36 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               National Medical Center <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Darul Sehat Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Patel Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Saifee Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to="/Hospital_main" className="dropdown-item">
@@ -564,31 +606,46 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Ali Medical Center <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Kulsum International Hospital{" "}
                               <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               MaxHealth Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Quaid-e-Azam Hospital <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Chinar International Hospital{" "}
                               <BsArrowRightShort />
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to="/Hospital_main" className="dropdown-item">
@@ -633,24 +690,36 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Shamshad Aslam Hospital
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Hearts International Hospital
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Maryam Memorial Hospital
-                            </a>
+                            </Link>
                           </li>
                           <li>
-                            <a className="dropdown-item" href="#">
+                          <Link
+                              to="/Doctorshospital_main"
+                              className="dropdown-item"
+                            >
                               Hanif Hospital (Rawalpindi)
-                            </a>
+                            </Link>
                           </li>
                           <li>
                             <Link to="/Hospital_main" className="dropdown-item">
@@ -794,6 +863,7 @@ export default function Header() {
                     <div className="row">
                       <h5 className="ps-5">Islamabad</h5>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -807,8 +877,10 @@ export default function Header() {
                             Shifa International
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -822,8 +894,10 @@ export default function Header() {
                             Capital International
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -837,8 +911,10 @@ export default function Header() {
                             Maroof International
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -852,8 +928,10 @@ export default function Header() {
                             Advance Diagnostic
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -867,8 +945,10 @@ export default function Header() {
                             Aga Khan University
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -882,8 +962,10 @@ export default function Header() {
                             Islamabad Diagnostic
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -897,12 +979,14 @@ export default function Header() {
                             Smart Medical
                           </span>
                         </a>
+                        </Link>
                       </div>
                     </div>
                     {/* Karachi */}
                     <div className="row">
                       <h5 className="ps-5">Karachi</h5>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -916,8 +1000,10 @@ export default function Header() {
                             Chughtai Lab
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -931,8 +1017,10 @@ export default function Header() {
                             Dr.Essa Lab
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -946,8 +1034,10 @@ export default function Header() {
                             Dr. Zaiuddin
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -961,8 +1051,10 @@ export default function Header() {
                             OMI Hospital Lab
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -976,8 +1068,10 @@ export default function Header() {
                             Metropolis Health
                           </span>
                         </a>
+                        </Link>
                       </div>
                       <div className="col-3">
+                      <Link to="/Chughtai_main" className="nav-link">
                         <a
                           href=""
                           className="dropdown-item dropdown-speciality border"
@@ -991,6 +1085,7 @@ export default function Header() {
                             Aga Khan University
                           </span>
                         </a>
+                        </Link>
                       </div>
                     </div>
                     {/*  */}

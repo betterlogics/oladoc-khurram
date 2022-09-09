@@ -90,8 +90,8 @@ export default function Mobilenav() {
                     <h6>Find Doctor By Treatment</h6>
                     <NavDropdown.Item><Link to='/Mri_main' className="nav-link">Mri</Link></NavDropdown.Item>
                     <NavDropdown.Item><Link to='/Mri_main' className="nav-link">CT Scan</Link></NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Laiser Hair Removal
+                    <NavDropdown.Item><Link to='/Mri_main' className="nav-link">
+                      Laiser Hair Removal</Link>
                     </NavDropdown.Item>
                     <NavDropdown.Item><Link to='/Mri_main' className="nav-link">Test Tube Baby</Link></NavDropdown.Item>
                     <NavDropdown.Item><Link to='/Mri_main' className="nav-link">
@@ -100,33 +100,60 @@ export default function Mobilenav() {
                     <NavDropdown.Item><Link to='/Mri_main' className="nav-link">
                       Normal Delivery</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item >IVF</NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Laiser For Skin
+                    <NavDropdown.Item ><Link to='/Mri_main' className="nav-link">IVF</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Mri_main' className="nav-link">
+                      Laiser For Skin</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">Vaccination</NavDropdown.Item>
-                    <NavDropdown.Item href="#">All Treatments</NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Mri_main' className="nav-link">Vaccination</Link></NavDropdown.Item>
+                    <NavDropdown.Item><Link to='/Mri_main' className="nav-link">All Treatments</Link></NavDropdown.Item>
                     <h6>Find Doctor By Condition</h6>
-                    <NavDropdown.Item href="#">Piles</NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Male Sexual Dysfunction
+                    <NavDropdown.Item>Piles</NavDropdown.Item>
+                    <NavDropdown.Item>  <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
+                      Male Sexual Dysfunction</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Male Infertility
+                    <NavDropdown.Item>  <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
+                      Male Infertility</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">Hernia</NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Erectile Dysfunction
+                    <NavDropdown.Item>  <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >Hernia</Link></NavDropdown.Item>
+                    <NavDropdown.Item>  <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
+                      Erectile Dysfunction</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">Acne Scars</NavDropdown.Item>
-                    <NavDropdown.Item href="#">Skin Diseases</NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Throid Diseases
+                    <NavDropdown.Item>  <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >Acne Scars</Link></NavDropdown.Item>
+                    <NavDropdown.Item>  <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >Skin Diseases</Link></NavDropdown.Item>
+                    <NavDropdown.Item>  <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
+                      Throid Diseases</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Testicular Torsion
+                    <NavDropdown.Item>  <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >
+                      Testicular Torsion</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">All Conditions</NavDropdown.Item>
+                    <NavDropdown.Item>  <Link
+                              to="/Dermatologist_main"
+                              className="dropdown-item"
+                            >All Conditions</Link></NavDropdown.Item>
                   </NavDropdown>
                   <NavDropdown
                     title="Hospitals"
@@ -145,91 +172,91 @@ export default function Mobilenav() {
                     <NavDropdown.Item >  <Link to="/Doctorshospital_main" className="nav-link">
                       Mid City Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      National Hospital & Medical Center{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      National Hospital & Medical Center{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Evercare Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Evercare Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Fatima Memorial Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Fatima Memorial Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Ittefaq Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Ittefaq Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Iqra Mediucal Complex
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Iqra Mediucal Complex</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      All Hospitals in Lahore{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      All Hospitals in Lahore{" "}</Link>
                     </NavDropdown.Item>
                     <h6>Karachi Hospitals</h6>
-                    <NavDropdown.Item href="#">
-                      Hashmanis Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Hashmanis Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      South City Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      South City Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Altamash General Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Altamash General Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Medicare Cardiac & General Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Medicare Cardiac & General Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Dr. Zaiuddin Hospital (North Nazimabad){" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Dr. Zaiuddin Hospital (North Nazimabad){" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      National Medical Center (NMC){" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      National Medical Center (NMC){" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Darul Sehat Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Darul Sehat Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Patel Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Patel Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Saifee Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Saifee Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Aga Khan Unevirsty Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Aga Khan Unevirsty Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Aga Khan Unevirsty Hospital{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Aga Khan Unevirsty Hospital{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      All Hospitals In Karachi
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      All Hospitals In Karachi</Link>
                     </NavDropdown.Item>
                     <h6>Islamabad Hospitals</h6>
-                    <NavDropdown.Item href="#">
-                      Advance medical Center
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Advance medical Center</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Islamabad International Hospital
+                    <NavDropdown.Item > <Link to="/Doctorshospital_main" className="nav-link">
+                      Islamabad International Hospital</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Shifa International Hospital
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Shifa International Hospital</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Quiad-e-Azam International Hospital
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Quiad-e-Azam International Hospital</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Marof International Hospital
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Marof International Hospital</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Ali Medical Center
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Ali Medical Center</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Kulsum International Hospital
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Kulsum International Hospital</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Islamabad Specialist Clinic{" "}
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Islamabad Specialist Clinic{" "}</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      Max Health Hospital
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      Max Health Hospital</Link>
                     </NavDropdown.Item>
-                    <NavDropdown.Item href="#">
-                      All Hospitals in Islamabad
+                    <NavDropdown.Item> <Link to="/Doctorshospital_main" className="nav-link">
+                      All Hospitals in Islamabad </Link>
                     </NavDropdown.Item>
                   </NavDropdown>
                   <NavDropdown

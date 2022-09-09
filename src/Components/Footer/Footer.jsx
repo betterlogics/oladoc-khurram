@@ -1,11 +1,11 @@
 import React from "react";
 import "./Footer.css";
 import { BsCheckCircleFill } from "react-icons/bs";
-import {AiOutlineTwitter} from "react-icons/ai"
-import {AiOutlineInstagram} from "react-icons/ai"
-import {FaFacebookF} from "react-icons/fa"
-import {AiFillYoutube} from "react-icons/ai"
-import {AiOutlineMail} from "react-icons/ai"
+import { AiOutlineTwitter } from "react-icons/ai";
+import { AiOutlineInstagram } from "react-icons/ai";
+import { FaFacebookF } from "react-icons/fa";
+import { AiFillYoutube } from "react-icons/ai";
+import { AiOutlineMail } from "react-icons/ai";
 import { Routes, Route, Link } from "react-router-dom";
 export default function Footer() {
   return (
@@ -76,45 +76,43 @@ export default function Footer() {
                   </span>
                   <ul className="footer-list">
                     <li>
-                    <Link to="/Karachi_main">Karachi</Link>
-                     
+                      <Link to="/Karachi_main">Karachi</Link>
                     </li>
                     <li>
-                    <Link to="/Doctor_main">Lahore</Link>
-                    
+                      <Link to="/Doctor_main">Lahore</Link>
                     </li>
                     <li>
-                      <a href="">Islamabad</a>
+                      <Link to="/Doctor_main">Islamabad</Link>
                     </li>
                     <li>
-                      <a href="">Rawalpindi</a>
+                      <Link to="/Doctor_main">Rawalpindi</Link>
                     </li>
                     <li>
-                      <a href="">Multan</a>
+                      <Link to="/Doctor_main">Multan</Link>
                     </li>
                     <li>
-                      <a href="">Peshawar</a>
+                      <Link to="/Doctor_main">Peshawar</Link>
                     </li>
                     <li>
-                      <a href="">Gujranwala</a>
+                      <Link to="/Doctor_main">Gujranwala</Link>
                     </li>
                     <li>
-                      <a href="">Faisalabad</a>
+                      <Link to="/Doctor_main">Faisalabad</Link>
                     </li>
                     <li>
-                      <a href="">Sargodha</a>
+                      <Link to="/Doctor_main">Sargodha</Link>
                     </li>
                     <li>
-                      <a href="">Bahawalpur</a>
+                      <Link to="/Doctor_main">Bahawalpur</Link>
                     </li>
                     <li>
-                      <a href="">Quetta</a>
+                      <Link to="/Doctor_main">Quetta</Link>
                     </li>
                     <li>
-                      <a href="">Wah Cantt</a>
+                      <Link to="/Doctor_main">Wah Cantt</Link>
                     </li>
                     <li>
-                      <a href="">Hyderabad</a>
+                      <Link to="/Doctor_main">Hyderabad</Link>
                     </li>
                   </ul>
                 </div>
@@ -127,56 +125,71 @@ export default function Footer() {
                   </a>
                   <ul className="footer-list">
                     <li>
-                    <Link to="/Doctorshospital_main">Doctors Hospital</Link>
-                      
+                      <Link to="/Doctorshospital_main">Doctors Hospital</Link>
                     </li>
                     <li>
-                     <Link to="/Doctorshospital_main">Hameed Latif Hospital</Link>
+                      <Link to="/Doctorshospital_main">
+                        Hameed Latif Hospital
+                      </Link>
                     </li>
                     <li>
-                    <Link to="/Doctorshospital_main">
-
-                      National Hospital
-                    </Link>
+                      <Link to="/Doctorshospital_main">National Hospital</Link>
                     </li>
                     <li>
-                    <Link to="/Doctorshospital_main">
-                    Fatima MemorialHospital
-
-                    </Link>
+                      <Link to="/Doctorshospital_main">
+                        Fatima MemorialHospital
+                      </Link>
                     </li>
                     <li>
-                      <a href="">Omar Hospital and Cardic Center</a>
+                      <Link to="/Doctorshospital_main">
+                        Omar Hospital and Cardic Center
+                      </Link>
                     </li>
                     <li>
-                      <a href="">Ali Medical Center</a>
+                      <Link to="/Doctorshospital_main">Ali Medical Center</Link>
                     </li>
                     <li>
-                      <a href="">Shifa International Hospital</a>
+                      <Link to="/Doctorshospital_main">
+                        Shifa International Hospital
+                      </Link>
                     </li>
                     <li>
-                      <a href="">Quaid-e-Azam International Hospital</a>
+                      <Link to="/Doctorshospital_main">
+                        Quaid-e-Azam International Hospital
+                      </Link>
                     </li>
                     <li>
-                      <a href="">Advance Medical Center</a>
+                      <Link to="/Doctorshospital_main">
+                        Advance Medical Center
+                      </Link>
                     </li>
                     <li>
-                      <a href="">Maroof International Hospital</a>
+                      <Link to="/Doctorshospital_main">
+                        Maroof International Hospital
+                      </Link>
                     </li>
                     <li>
-                      <a href="">South City Hospital</a>
+                      <Link to="/Doctorshospital_main">
+                        South City Hospital
+                      </Link>
                     </li>
                     <li>
-                      <a href="">Dr.Zaiuddin Hospital (North Nazimabad)</a>
+                      <Link to="/Doctorshospital_main">
+                        Dr.Zaiuddin Hospital (North Nazimabad)
+                      </Link>
                     </li>
                     <li>
-                      <a href="">Park Lane Hospital</a>
+                      <Link to="/Doctorshospital_main">Park Lane Hospital</Link>
                     </li>
                     <li>
-                      <a href="">National Medical Center</a>
+                      <Link to="/Doctorshospital_main">
+                        National Medical Center
+                      </Link>
                     </li>
                     <li>
-                      <a href="">Liaquat National Hospital & Medical College</a>
+                      <Link to="/Doctorshospital_main">
+                        Liaquat National Hospital & Medical College
+                      </Link>
                     </li>
                   </ul>
                 </div>
@@ -186,28 +199,25 @@ export default function Footer() {
                   </span>
                   <ul className="footer-list">
                     <li>
-                    <Link to="/Mri_main">
-                     Mri in Lahore
-
-                    </Link>
+                      <Link to="/Mri_main">Mri in Lahore</Link>
                     </li>
                     <li>
-                      <a href="">X-RAY in Lahore</a>
+                      <Link to="/Mri_main">X-RAY in Lahore</Link>
                     </li>
                     <li>
-                      <a href="">CT Scan in Lahore</a>
+                      <Link to="/Mri_main">CT Scan in Lahore</Link>
                     </li>
                     <li>
-                      <a href="">Mammography in Lahore</a>
+                      <Link to="/Mri_main">Mammography in Lahore</Link>
                     </li>
                     <li>
-                      <a href="">Ultrasound in Lahore</a>
+                      <Link to="/Mri_main">Ultrasound in Lahore</Link>
                     </li>
                   </ul>
                   <span className="title text-white d-block mb-3">More</span>
                   <ul className="footer-list">
                     <li>
-                      <a href="">Health Blogs</a>
+                      <Link to="/Blogs_main">Health Blogs</Link>
                     </li>
                     <li>
                       <a href="">Forum</a>
@@ -301,14 +311,36 @@ export default function Footer() {
               </p>
             </div>
             <div className="col-12 col-lg-auto text-lg-right py-2">
-                <span className="text-white d-md-inline fs-5">Connect with us</span>
-                <ul className="nav text-white d-md-inline my-0 ms-4 social-media justify-content-around">
-                   <li className="d-md-inline"><a href="" className="px-2 text-white"><AiOutlineTwitter/></a></li>
-                   <li className="d-md-inline"><a href="" className="px-2 text-white"><FaFacebookF/></a></li>
-                   <li className="d-md-inline"><a href="" className="px-2 text-white"><AiOutlineInstagram/></a></li>
-                   <li className="d-md-inline"><a href="" className="px-2 text-white"><AiFillYoutube/></a></li>
-                   <li className="d-md-inline"><a href="" className="px-2 text-white"><AiOutlineMail/></a></li>
-                </ul>
+              <span className="text-white d-md-inline fs-5">
+                Connect with us
+              </span>
+              <ul className="nav text-white d-md-inline my-0 ms-4 social-media justify-content-around">
+                <li className="d-md-inline">
+                  <a href="" className="px-2 text-white">
+                    <AiOutlineTwitter />
+                  </a>
+                </li>
+                <li className="d-md-inline">
+                  <a href="" className="px-2 text-white">
+                    <FaFacebookF />
+                  </a>
+                </li>
+                <li className="d-md-inline">
+                  <a href="" className="px-2 text-white">
+                    <AiOutlineInstagram />
+                  </a>
+                </li>
+                <li className="d-md-inline">
+                  <a href="" className="px-2 text-white">
+                    <AiFillYoutube />
+                  </a>
+                </li>
+                <li className="d-md-inline">
+                  <a href="" className="px-2 text-white">
+                    <AiOutlineMail />
+                  </a>
+                </li>
+              </ul>
             </div>
           </div>
         </div>
